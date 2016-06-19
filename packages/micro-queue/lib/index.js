@@ -11,7 +11,20 @@ const q = [];
 
 /** Executor:
  *
- * The executor is a short, self executing function that will continue to self execute as long as there are tasks left
+ * To improve the memory footprint of this micro-module, this entry point is abstracted to avoid the creation of an
+ * unnecssary closure within in the task runner. 
+ */
+const e = () => {
+  // Register that the queue is being processed
+  e._r = true;
+
+  // Execute the task runner
+  r();
+};
+
+/** Runner:
+ *
+ * The runner is a short, self executing function that will continue to self execute as long as there are tasks left
  * in the queue.
  */
 const r = () => {
@@ -19,6 +32,9 @@ const r = () => {
   q.shift()(() => {
     if (q.length) {
       r();
+    } else {
+      // Register that the queue is no longer being processed
+      e._r = false;
     }
   });
 }
@@ -28,7 +44,7 @@ module.exports = fn => {
   q[q.length] = fn;
 
   // If this is the only item in the queue, begin processing
-  if (q.length === 1) {
-    r();
+  if (!e._r) {
+    e();
   }
 }
