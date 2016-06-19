@@ -2,10 +2,14 @@
   "name": "micro-queue",
   "version": "1.0.0",
   "description": "A synchronous queue, nothing more",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha tests"
   },
   "author": "Iain Reid",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
