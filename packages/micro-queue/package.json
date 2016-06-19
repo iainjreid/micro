@@ -1,6 +1,6 @@
 {
   "name": "micro-queue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A synchronous queue, nothing more",
   "main": "lib/index.js",
   "scripts": {
