@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A synchronous queue, nothing more",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iainreid820/micro-queue"
+  },
   "scripts": {
     "test": "node_modules/.bin/mocha tests"
   },
