@@ -1,6 +1,8 @@
 # Micro Queue
 A basic method to synchronously process functions
 
+[![npm](https://img.shields.io/npm/v/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/micro-queue)
+
 ### Usage
 ```javascript
   const microQ = require('micro-queue');
