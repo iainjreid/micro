@@ -3,17 +3,28 @@
   "version": "1.0.2",
   "description": "A synchronous queue, nothing more",
   "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iainreid820/micro-queue"
-  },
   "scripts": {
     "test": "node_modules/.bin/mocha lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iainreid820/micro-queue.git"
+  },
+  "keywords": [
+    "micro",
+    "queue",
+    "synchronous",
+    "task",
+    "tasks"
+  ],
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro-queue/issues"
+  },
+  "homepage": "https://github.com/iainreid820/micro-queue#readme",
   "author": "Iain Reid",
-  "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
-  }
+  },
+  "license": "MIT"
 }
