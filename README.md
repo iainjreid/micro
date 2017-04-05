@@ -13,10 +13,10 @@ Below is a very simple example on how best to use this module. For appearances s
   const q = require('micro-queue');
 
   // Add a function to the queue, like so
-  q(function (done) {
+  q((done) => {
     // ... do something snazzy
 
-    // Then simply call the "done" argument upon completion
+    // Then simply call the "done" method upon completion
     done();
   });
 ```
