@@ -2,9 +2,9 @@
 
 'use strict';
 
-module.exports = fn => {
+module.exports = fn => function () {
   try {
-    return fn()
+    return fn.apply(this, arguments)
   } catch ({ message }) {
     console.warn(`Handled error: "${message}"`)
   }

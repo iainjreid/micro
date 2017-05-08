@@ -1,20 +1,32 @@
 {
   "name": "micro-catch",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simplified error handling",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iainreid820/micro-catch.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "keywords": [
+    "micro",
+    "catch",
+    "error",
+    "handling"
+  ],
   "bugs": {
     "url": "https://github.com/iainreid820/micro-catch/issues"
   },
-  "homepage": "https://github.com/iainreid820/micro-catch#readme"
+  "homepage": "https://github.com/iainreid820/micro-catch#readme",
+  "author": {
+    "name": "Iain Reid",
+    "email": "iainreid382@gmail.com"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "license": "MIT"
 }
