@@ -9,4 +9,3 @@ module.exports = fn => function () {
     console.warn(`Handled error: "${message}"`)
   }
 }
-
