@@ -1,6 +1,6 @@
 {
   "name": "micro-catch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simplified error handling",
   "main": "lib/index.js",
   "scripts": {
