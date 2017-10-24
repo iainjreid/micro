@@ -1,0 +1,31 @@
+{
+  "name": "micro-curry",
+  "version": "0.0.0",
+  "description": "Simplified method currying",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/micro-curry.git"
+  },
+  "keywords": [
+    "micro",
+    "curry",
+    "function"
+  ],
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro-curry/issues"
+  },
+  "homepage": "https://github.com/iainreid820/micro-curry#readme",
+  "author": {
+    "name": "Iain Reid",
+    "email": "iainreid382@gmail.com"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "license": "MIT"
+}
