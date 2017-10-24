@@ -1,6 +1,6 @@
 {
   "name": "micro-curry",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simplified method currying",
   "main": "lib/index.js",
   "scripts": {
