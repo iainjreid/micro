@@ -26,6 +26,10 @@ The following snippet is a simple example showing how this library will work on 
   console.log(cHelloToYou('Chuck')('Norris')); // "Hello, Chuck Norris!"
 ```
 
+### Known caveats
+
+For functions with an unknown arity, functions with rest parameters for example, currying is not possible without manually providing the expected number of arguments. Without this, the currying function will assume an arity of one, which might lead to hidden bugs in your code!
+
 ### Micro collection
 
 I've written a few of these micro libraries, check them out!
