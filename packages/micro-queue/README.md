@@ -2,6 +2,7 @@
 A micro library built to process tasks synchronously
 
 [![npm](https://img.shields.io/npm/v/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/micro-queue)
+![travis](https://img.shields.io/travis/iainreid820/micro-queue/master.svg?style=flat-square)
 
 ### Module description
 This module aims to provide a basic, minimalist approach to synchronous queue management. Simply invoke the module directly with a function as it's first and only argument, and that function will be called as soon as possible (with respect to any functions that may already be waiting in the queue).
