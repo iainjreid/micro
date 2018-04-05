@@ -1,9 +1,9 @@
 # Micro Catch
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/iainreid820/micro-catch.svg)](https://greenkeeper.io/)
 A micro library built to quietly handle errors in function compositions
 
 [![npm](https://img.shields.io/npm/v/micro-catch.svg?style=flat-square)](https://www.npmjs.com/package/micro-catch)
+![greenkeeper](https://badges.greenkeeper.io/iainreid820/micro-catch.svg)
 ![travis](https://img.shields.io/travis/iainreid820/micro-catch/master.svg?style=flat-square)
 
 ### Module description
