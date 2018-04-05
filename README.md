@@ -1,9 +1,9 @@
 # Micro Queue
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/iainreid820/micro-queue.svg)](https://greenkeeper.io/)
 A micro library built to process tasks synchronously
 
 [![npm](https://img.shields.io/npm/v/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/micro-queue)
+![greenkeeper](https://badges.greenkeeper.io/iainreid820/micro-queue.svg)
 ![travis](https://img.shields.io/travis/iainreid820/micro-queue/master.svg?style=flat-square)
 
 ### Module description
