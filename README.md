@@ -3,14 +3,14 @@
 A micro library built to process tasks synchronously
 
 [![npm](https://img.shields.io/npm/v/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/micro-queue)
-![greenkeeper](https://badges.greenkeeper.io/iainreid820/micro-queue.svg)
+![greenkeeper](https://badges.greenkeeper.io/iainreid820/micro-queue.svg?style=flat-square)
 ![travis](https://img.shields.io/travis/iainreid820/micro-queue/master.svg?style=flat-square)
 
 ### Module description
 This module aims to provide a basic, minimalist approach to synchronous queue management. Simply invoke the module directly with a function as it's first and only argument, and that function will be called as soon as possible (with respect to any functions that may already be waiting in the queue).
 
 ### Example usage
-Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is choosen, however, if a more expressive or verbose approach is favourable use `microQ` instead.
+Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is chosen, however, if a more expressive or verbose approach is favourable use `microQ` instead.
 
 ```javascript
   const q = require('micro-queue');
@@ -23,3 +23,11 @@ Below is a very simple example on how best to use this module. For appearances s
     done();
   });
 ```
+
+### Micro collection
+ 
+I've written a few of these micro libraries, check them out!
+
+- [micro-catch](https://github.com/iainreid820/micro-catch)
+- [micro-curry](https://github.com/iainreid820/micro-curry)
+
