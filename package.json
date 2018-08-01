@@ -1,6 +1,6 @@
 {
   "name": "micro-queue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A synchronous queue, nothing more",
   "main": "lib/index.js",
   "scripts": {
@@ -27,8 +27,8 @@
     "mocha": "^5.0.5"
   },
   "license": "MIT",
-    "greenkeeper": {
-      "commitMessages": {
+  "greenkeeper": {
+    "commitMessages": {
       "initialBadge": "Add Greenkeeper badge",
       "initialDependencies": "Update dependencies",
       "initialBranches": "Whitelist greenkeeper branches",
