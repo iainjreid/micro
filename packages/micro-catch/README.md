@@ -13,6 +13,6 @@ Clunky try catch statements can spoil functional code and often lead to generali
 
 I've written a few of these micro libraries, check them out!
 
-- [micro-catch](https://github.com/iainreid820/micro-curry)
-- [micro-curry](https://github.com/iainreid820/micro-queue)
+- [micro-curry](https://github.com/iainreid820/micro-curry)
+- [micro-queue](https://github.com/iainreid820/micro-queue)
 
