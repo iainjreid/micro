@@ -10,7 +10,7 @@ A micro library built to process tasks synchronously
 This module aims to provide a basic, minimalist approach to synchronous queue management. Simply invoke the module directly with a function as it's first and only argument, and that function will be called as soon as possible (with respect to any functions that may already be waiting in the queue).
 
 ### Example usage
-Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is chosen, however, if a more expressive or verbose approach is favourable use `microQ` instead.
+Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is chosen, however, if a more expressive or verbose approach is favourable use `mQueue` instead.
 
 ```javascript
   const q = require('micro-queue');
