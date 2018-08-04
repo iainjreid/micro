@@ -15,7 +15,7 @@ const e = () => {
   e._r = true;
 
   // Execute the task runner
-  return r();
+  r();
 };
 
 /**
@@ -26,7 +26,7 @@ const r = () => {
   // Retrieve the first task in the queue
   return q.shift()(() => {
     if (q.length) {
-      return r();
+      r();
     } else {
       // Register that the queue is no longer being processed
       e._r = false;
@@ -40,6 +40,7 @@ module.exports = fn => {
 
   // If this is the only item in the queue, begin processing
   if (!e._r) {
-    return e();
+    e();
   }
 }
+
