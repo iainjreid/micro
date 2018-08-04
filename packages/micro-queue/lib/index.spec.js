@@ -1,9 +1,5 @@
-/* vim: set et ts=2 cc=120: */
-
 'use strict';
 
-// Dependencies
-const expect = require('chai').expect;
 const microQ = require('../');
 
 describe('order:', () => {
@@ -30,7 +26,7 @@ describe('order:', () => {
     });
 
     microQ(() => {
-      expect(clock).to.deep.equal(['one', 'two', 'three']);
+      expect(clock).toEqual(['one', 'two', 'three']);
       done();
     });
   });
