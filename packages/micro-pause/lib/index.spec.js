@@ -13,7 +13,7 @@ describe('mPause:', () => {
     expect(timeTaken).to.be.above(200);
   });
 
-  it('should pause execution for 1000ms', async () => {
+  it('should pause execution for 500ms', async () => {
     const startTime = Date.now();
     await mPause(500);
     const timeTaken = Date.now() - startTime;
