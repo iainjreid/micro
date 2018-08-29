@@ -1,0 +1,43 @@
+{
+  "name": "micro-pause",
+  "version": "0.0.0",
+  "description": "An minimalist asynchronous waiting method",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iainreid820/micro-pause.git"
+  },
+  "keywords": [
+    "micro",
+    "pause",
+    "asynchronous",
+    "waiting",
+    "wait",
+    "sleeping",
+    "sleep"
+  ],
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro-pause/issues"
+  },
+  "homepage": "https://github.com/iainreid820/micro-pause#readme",
+  "author": "Iain Reid",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "license": "MIT",
+  "greenkeeper": {
+    "commitMessages": {
+      "initialBadge": "Add Greenkeeper badge",
+      "initialDependencies": "Update dependencies",
+      "initialBranches": "Whitelist greenkeeper branches",
+      "dependencyUpdate": "Update ${dependency} to version ${version}",
+      "devDependencyUpdate": "Update ${dependency} to version ${version}",
+      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
+      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
+    }
+  }
+}
