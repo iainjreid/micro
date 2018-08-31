@@ -1,9 +1,7 @@
 language: node_js
 
 node_js:
-  - "8.11.1"
-  - "9.10.1"
-  - "10"
+  - "lts/*"
 
 deploy:
   provider: npm
