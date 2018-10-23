@@ -36,5 +36,9 @@
       "dependencyPin": "Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     }
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
   }
 }
