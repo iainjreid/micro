@@ -13,7 +13,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib/index.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -23,13 +23,16 @@
     "url": "git+https://github.com/iainreid820/micro.git"
   },
   "scripts": {
-    "test": "mocha lib"
+    "test": "jest"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
   },
   "bugs": {
     "url": "https://github.com/iainreid820/micro/issues"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^6.0.2"
+    "jest": "^24.1.0"
   }
 }

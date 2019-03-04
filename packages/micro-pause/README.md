@@ -1,8 +1,6 @@
 # Micro Pause
 
 [![npm](https://img.shields.io/npm/v/micro-pause.svg?style=flat-square)](https://www.npmjs.com/package/micro-pause)
-![greenkeeper](https://badges.greenkeeper.io/iainreid820/micro-pause.svg?style=flat-square)
-![travis](https://img.shields.io/travis/iainreid820/micro-pause/master.svg?style=flat-square)
 
 ### Micro collection
 

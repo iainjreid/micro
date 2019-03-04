@@ -1,1 +1,6 @@
-/node_modules
+# Ignore Node.js and NPM related paths
+node_modules/
+npm-debug.log
+
+# Ignore coverage paths
+coverage/

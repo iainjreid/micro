@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib/index.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -34,7 +34,6 @@
     "url": "https://github.com/iainreid820/micro/issues"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
-    "mocha": "^6.0.2"
+    "jest": "^24.1.0"
   }
 }
