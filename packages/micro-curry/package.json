@@ -1,6 +1,6 @@
 {
   "name": "@chaff/micro-curry",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simplified method currying",
   "keywords": [
     "micro",

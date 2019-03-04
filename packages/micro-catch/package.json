@@ -1,6 +1,6 @@
 {
   "name": "@chaff/micro-catch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simplified error handling",
   "keywords": [
     "micro",

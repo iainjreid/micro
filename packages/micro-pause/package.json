@@ -1,6 +1,6 @@
 {
   "name": "@chaff/micro-pause",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimalist asynchronous waiting method",
   "keywords": [
     "micro",
