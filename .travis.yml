@@ -11,8 +11,7 @@ after_script:
 
 deploy:
   provider: script
-  script: "npx lerna publish --yes"
+  script: "npx lerna publish from-package --yes"
   skip_cleanup: true
   on:
     branch: master
-    tags: true
