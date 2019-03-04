@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+
+before_install:
+  - npm install -g codecov
+
+after_script:
+  - codecov
+
+deploy:
+  provider: script
+  script: "npx lerna publish --yes"
+  skip_cleanup: true
+  on:
+    branch: master
+    tags: true
