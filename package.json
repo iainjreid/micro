@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "lerna": "lerna",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "lerna bootstrap",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^3.13.1"

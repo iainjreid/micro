@@ -1,15 +1,7 @@
 {
-  "name": "micro-queue",
+  "name": "@chaff/micro-queue",
   "version": "1.0.7",
   "description": "A synchronous queue, nothing more",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iainreid820/micro-queue.git"
-  },
   "keywords": [
     "micro",
     "queue",
@@ -17,28 +9,32 @@
     "task",
     "tasks"
   ],
-  "bugs": {
-    "url": "https://github.com/iainreid820/micro-queue/issues"
-  },
-  "homepage": "https://github.com/iainreid820/micro-queue#readme",
-  "author": "Iain Reid",
-  "devDependencies": {
-    "jest": "^23.6.0"
-  },
+  "author": "Iain Reid <iainreid382@gmail.com>",
+  "homepage": "https://github.com/iainreid820/micro#readme",
   "license": "MIT",
-  "greenkeeper": {
-    "commitMessages": {
-      "initialBadge": "Add Greenkeeper badge",
-      "initialDependencies": "Update dependencies",
-      "initialBranches": "Whitelist greenkeeper branches",
-      "dependencyUpdate": "Update ${dependency} to version ${version}",
-      "devDependencyUpdate": "Update ${dependency} to version ${version}",
-      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
-      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
-    }
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/micro.git"
+  },
+  "scripts": {
+    "test": "jest"
   },
   "jest": {
     "coverageDirectory": "./coverage",
     "collectCoverage": true
+  },
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro/issues"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "mocha": "^6.0.2"
   }
 }

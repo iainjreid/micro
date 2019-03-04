@@ -1,31 +1,34 @@
 {
-  "name": "micro-curry",
+  "name": "@chaff/micro-curry",
   "version": "0.0.3",
   "description": "Simplified method currying",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iainreid820/micro-curry.git"
-  },
   "keywords": [
     "micro",
     "curry",
     "function"
   ],
-  "bugs": {
-    "url": "https://github.com/iainreid820/micro-curry/issues"
+  "author": "Iain Reid <iainreid382@gmail.com>",
+  "homepage": "https://github.com/iainreid820/micro#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/iainreid820/micro-curry#readme",
-  "author": {
-    "name": "Iain Reid",
-    "email": "iainreid382@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/micro.git"
+  },
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro/issues"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
-  },
-  "license": "MIT"
+    "mocha": "^6.0.2"
+  }
 }

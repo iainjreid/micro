@@ -1,15 +1,7 @@
 {
-  "name": "micro-pause",
+  "name": "@chaff/micro-pause",
   "version": "1.0.0",
-  "description": "An minimalist asynchronous waiting method",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iainreid820/micro-pause.git"
-  },
+  "description": "A minimalist asynchronous waiting method",
   "keywords": [
     "micro",
     "pause",
@@ -19,25 +11,28 @@
     "sleeping",
     "sleep"
   ],
-  "bugs": {
-    "url": "https://github.com/iainreid820/micro-pause/issues"
+  "author": "Iain Reid <iainreid382@gmail.com>",
+  "homepage": "https://github.com/iainreid820/micro#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/iainreid820/micro-pause#readme",
-  "author": "Iain Reid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/micro.git"
+  },
+  "scripts": {
+    "test": "mocha lib"
+  },
+  "bugs": {
+    "url": "https://github.com/iainreid820/micro/issues"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.0.5"
-  },
-  "license": "MIT",
-  "greenkeeper": {
-    "commitMessages": {
-      "initialBadge": "Add Greenkeeper badge",
-      "initialDependencies": "Update dependencies",
-      "initialBranches": "Whitelist greenkeeper branches",
-      "dependencyUpdate": "Update ${dependency} to version ${version}",
-      "devDependencyUpdate": "Update ${dependency} to version ${version}",
-      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
-      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
-    }
+    "mocha": "^6.0.2"
   }
 }
