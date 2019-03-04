@@ -9,7 +9,7 @@ before_install:
 after_script:
   - codecov
 
-before_deploy: "echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc"
+before_deploy: "echo '//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc"
 
 deploy:
   provider: script
