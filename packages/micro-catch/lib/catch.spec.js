@@ -1,10 +1,10 @@
 'use strict';
 
-const microCatch = require('../');
+const Catch = require('./catch');
 
 describe('handling:', () => {
   it('should catch the error', () => {
-    microCatch(() => {
+    Catch(() => {
       throw Error();
     })();
   });

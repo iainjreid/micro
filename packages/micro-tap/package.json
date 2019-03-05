@@ -1,20 +1,16 @@
 {
-  "name": "@chaff/micro-queue",
-  "version": "1.0.9",
-  "description": "A synchronous queue, nothing more",
+  "name": "@chaff/micro-tap",
+  "version": "0.0.1",
+  "description": "Quickly access a value within a fuction chain",
   "keywords": [
-    "micro",
-    "queue",
-    "synchronous",
-    "task",
-    "tasks"
+    "tap"
   ],
   "author": "Iain Reid <iainreid382@gmail.com>",
   "homepage": "https://github.com/iainreid820/micro#readme",
   "license": "MIT",
-  "main": "lib/micro-queue.js",
+  "main": "lib/micro-tap.js",
   "files": [
-    "lib/micro-queue.js"
+    "lib/micro-tap.js"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,8 +1,9 @@
 # Micro Queue
 
-A micro library built to process tasks synchronously
+⏳ A super simple synchronous queue using as little code as possible
 
 [![npm](https://img.shields.io/npm/v/@chaff/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/@chaff/micro-queue)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaff/micro-queue.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaff/micro-queue)
 
 ## Module description
 
@@ -13,10 +14,10 @@ This module aims to provide a basic, minimalist approach to synchronous queue ma
 Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is chosen, however, if a more expressive or verbose approach is favourable use `mQueue` instead.
 
 ```javascript
-  const q = require('micro-queue');
+  const Queue = require('@chaff/micro-queue');
 
   // Add a function to the queue, like so
-  q((done) => {
+  Queue((done) => {
     // ... do something snazzy
 
     // Then simply call the "done" method upon completion

@@ -11,9 +11,9 @@
   "author": "Iain Reid <iainreid382@gmail.com>",
   "homepage": "https://github.com/iainreid820/micro#readme",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/catch.js",
   "files": [
-    "lib/index.js"
+    "lib/catch.js"
   ],
   "publishConfig": {
     "access": "public"

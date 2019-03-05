@@ -1,11 +1,11 @@
 'use strict';
 
-const mPause = require('../');
+const Pause = require('../');
 
-describe('mPause:', () => {
+describe('Pause:', () => {
   it('should pause execution for 250ms', async () => {
     const startTime = Date.now();
-    await mPause(250);
+    await Pause(250);
     const timeTaken = Date.now() - startTime;
     expect(timeTaken).toBeLessThan(300);
     expect(timeTaken).toBeGreaterThan(200);
@@ -13,7 +13,7 @@ describe('mPause:', () => {
 
   it('should pause execution for 500ms', async () => {
     const startTime = Date.now();
-    await mPause(500);
+    await Pause(500);
     const timeTaken = Date.now() - startTime;
     expect(timeTaken).toBeLessThan(550);
     expect(timeTaken).toBeGreaterThan(450);
@@ -21,7 +21,7 @@ describe('mPause:', () => {
 
   it('should pause execution for 1000ms', async () => {
     const startTime = Date.now();
-    await mPause(1000);
+    await Pause(1000);
     const timeTaken = Date.now() - startTime;
     expect(timeTaken).toBeLessThan(1050);
     expect(timeTaken).toBeGreaterThan(950);

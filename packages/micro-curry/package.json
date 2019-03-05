@@ -10,9 +10,9 @@
   "author": "Iain Reid <iainreid382@gmail.com>",
   "homepage": "https://github.com/iainreid820/micro#readme",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/curry.js",
   "files": [
-    "lib/index.js"
+    "lib/curry.js"
   ],
   "publishConfig": {
     "access": "public"

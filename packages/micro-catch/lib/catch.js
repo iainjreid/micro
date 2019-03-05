@@ -1,5 +1,3 @@
-/* vim: set et ts=2 cc=120: */
-
 'use strict';
 
 module.exports = fn => function () {
