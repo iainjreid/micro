@@ -21,17 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/iainreid820/micro.git"
   },
-  "scripts": {
-    "test": "echo \"Warning: no test specified\" && exit 0"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage",
-    "collectCoverage": true
-  },
   "bugs": {
     "url": "https://github.com/iainreid820/micro/issues"
-  },
-  "devDependencies": {
-    "jest": "^24.1.0"
   }
 }

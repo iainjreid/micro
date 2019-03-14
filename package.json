@@ -1,10 +1,15 @@
 {
   "scripts": {
     "install": "lerna bootstrap",
-    "test": "lerna run test"
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^24.5.0",
     "lerna": "^3.13.1"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
   },
   "private": true
 }
