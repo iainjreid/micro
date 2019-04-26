@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "jest": "^24.7.1",
-    "lerna": "^3.13.3"
+    "lerna": "^3.13.4"
   },
   "jest": {
     "coverageDirectory": "./coverage",
