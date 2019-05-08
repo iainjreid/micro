@@ -1,9 +1,5 @@
-<h1 align="center">
-  Micro
-</h1>
-
 <p align="center">
-  A toolbox of practical everyday functions
+  <img src="./.oratory/logo.png" width="460px" />
 </p>
 
 <p align="center">
@@ -16,4 +12,3 @@
 
   <img src="https://img.shields.io/depfu/iainreid820/micro.svg?style=flat-square" />
 </p>
-
