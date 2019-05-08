@@ -11,5 +11,6 @@
     "coverageDirectory": "./coverage",
     "collectCoverage": true
   },
+  "license": "MIT",
   "private": true
 }
