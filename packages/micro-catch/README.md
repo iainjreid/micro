@@ -1,6 +1,6 @@
 # Micro Catch
 
-🤐 Quietly handle errors using as little code as possible 
+🤐 Quietly handle errors using as little code as possible
 
 [![npm](https://img.shields.io/npm/v/@chaff/micro-catch.svg?style=flat-square)](https://www.npmjs.com/package/@chaff/micro-catch)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaff/micro-catch.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaff/micro-catch)
@@ -30,4 +30,4 @@ Here's a short example of how to guard your process from a function that may thr
   wontThrow("maybeThis?") // Handled error: "Bad argument"
 ```
 
-Part of the [Micro](https://github.com/iainreid820/micro) collection
+Part of the [Micro](https://github.com/Chaffity/micro) collection

@@ -25,4 +25,4 @@ Below is a very simple example on how best to use this module. For appearances s
   });
 ```
 
-Part of the [Micro](https://github.com/iainreid820/micro) collection
+Part of the [Micro](https://github.com/Chaffity/micro) collection

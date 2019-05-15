@@ -8,7 +8,7 @@
     "function"
   ],
   "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/iainreid820/micro#readme",
+  "homepage": "https://github.com/Chaffity/micro#readme",
   "license": "MIT",
   "main": "lib/curry.js",
   "files": [
@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iainreid820/micro.git"
+    "url": "git+https://github.com/Chaffity/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/iainreid820/micro/issues"
+    "url": "https://github.com/Chaffity/micro/issues"
   }
 }
