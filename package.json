@@ -1,4 +1,5 @@
 {
+  "name": "micro",
   "scripts": {
     "install": "lerna bootstrap",
     "test": "jest"
