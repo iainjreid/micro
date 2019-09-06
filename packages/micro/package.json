@@ -1,0 +1,51 @@
+{
+  "name": "@chaffity/micro",
+  "version": "0.0.0",
+  "description": "A toolbox of practical everyday functions",
+  "keywords": [
+    "fp",
+    "fp-collection",
+    "fp-library",
+    "fp-toolkit",
+    "functional",
+    "functional-collection",
+    "functional-library",
+    "functional-toolkit",
+    "util",
+    "util-collection",
+    "util-library",
+    "utils",
+    "utils-collection",
+    "utils-library",
+    "utility",
+    "utility-collection",
+    "utility-library",
+    "utilities",
+    "utilities-collection",
+    "utilities-library"
+  ],
+  "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
+  "homepage": "https://github.com/Chaffity/micro#readme",
+  "license": "MIT",
+  "main": "micro.js",
+  "files": [
+    "micro.js"
+  ],
+  "dependencies": {
+    "@chaffity/micro-catch": "*",
+    "@chaffity/micro-curry": "*",
+    "@chaffity/micro-pause": "*",
+    "@chaffity/micro-queue": "*",
+    "@chaffity/micro-tap": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaffity/micro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chaffity/micro/issues"
+  }
+}
