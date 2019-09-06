@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/micro-tap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Quickly access a value within a fuction chain",
   "keywords": [
     "tap"

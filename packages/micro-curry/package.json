@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/micro-curry",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simplified method currying",
   "keywords": [
     "micro",

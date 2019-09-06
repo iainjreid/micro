@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/micro-pause",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A minimalist asynchronous waiting method",
   "keywords": [
     "micro",

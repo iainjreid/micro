@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/micro-queue",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A synchronous queue, nothing more",
   "keywords": [
     "micro",
