@@ -1,3 +1,5 @@
+/* eslint-disable valid-jsdoc */
+
 'use strict';
 
 /**
@@ -19,6 +21,7 @@ const e = () => {
 };
 
 /**
+ *
  * The runner is a short, self executing function that will continue to self execute as long as there are tasks left
  * in the queue.
  */

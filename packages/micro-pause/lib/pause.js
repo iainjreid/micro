@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = async (ms) => {
+module.exports = (ms) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve();
