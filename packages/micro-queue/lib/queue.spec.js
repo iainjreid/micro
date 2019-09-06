@@ -1,6 +1,6 @@
 'use strict';
 
-const Queue = require('./queue');
+const Queue = require('..');
 
 describe('order:', () => {
   it('should execute functions in the order that they are supplied', done => {

@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@emphori/eslint-config": "^0.1.3",
+    "@emphori/jest-preset": "0.0.3",
     "eslint": "^6.3.0",
     "jest": "^24.9.0",
     "lerna": "^3.16.4"
@@ -18,8 +19,10 @@
     }
   },
   "jest": {
-    "coverageDirectory": "./coverage",
-    "collectCoverage": true
+    "preset": "@emphori/jest-preset",
+    "collectCoverageFrom": [
+      "packages/*/lib/*.js"
+    ]
   },
   "license": "MIT",
   "private": true

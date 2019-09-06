@@ -12,9 +12,9 @@
   "author": "Iain Reid <iainreid382@gmail.com>",
   "homepage": "https://github.com/Chaffity/micro#readme",
   "license": "MIT",
-  "main": "lib/micro-queue.js",
+  "main": "lib/queue.js",
   "files": [
-    "lib/micro-queue.js"
+    "lib/queue.js"
   ],
   "publishConfig": {
     "access": "public"

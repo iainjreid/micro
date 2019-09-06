@@ -1,6 +1,6 @@
 'use strict';
 
-const Catch = require('./catch');
+const Catch = require('..');
 
 describe('handling:', () => {
   it('should catch the error', () => {

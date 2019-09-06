@@ -1,6 +1,6 @@
 'use strict';
 
-const Pause = require('../');
+const Pause = require('..');
 
 describe('Pause:', () => {
   it('should pause execution for 250ms', async () => {

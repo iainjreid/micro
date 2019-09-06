@@ -1,6 +1,6 @@
 'use strict';
 
-const Tap = require('./tap');
+const Tap = require('..');
 
 describe('Tap:', () => {
   it('should recieve the value from a promise chain', done => {
