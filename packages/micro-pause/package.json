@@ -1,5 +1,5 @@
 {
-  "name": "@chaff/micro-pause",
+  "name": "@chaffity/micro-pause",
   "version": "1.0.3",
   "description": "A minimalist asynchronous waiting method",
   "keywords": [

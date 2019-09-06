@@ -2,8 +2,8 @@
 
 ⏳ A super simple synchronous queue using as little code as possible
 
-[![npm](https://img.shields.io/npm/v/@chaff/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/@chaff/micro-queue)
-[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaff/micro-queue.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaff/micro-queue)
+[![npm](https://img.shields.io/npm/v/@chaffity/micro-queue.svg?style=flat-square)](https://www.npmjs.com/package/@chaffity/micro-queue)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaffity/micro-queue.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaffity/micro-queue)
 
 ## Module description
 
@@ -14,7 +14,7 @@ This module aims to provide a basic, minimalist approach to synchronous queue ma
 Below is a very simple example on how best to use this module. For appearances sake, and to be in keeping with the philosophy of this module, the constant `q` is chosen, however, if a more expressive or verbose approach is favourable use `mQueue` instead.
 
 ```javascript
-  const Queue = require('@chaff/micro-queue');
+  const Queue = require('@chaffity/micro-queue');
 
   // Add a function to the queue, like so
   Queue((done) => {

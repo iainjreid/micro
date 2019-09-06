@@ -2,8 +2,8 @@
 
 🍛 Curry any method using as little code as possible
 
-[![npm](https://img.shields.io/npm/v/@chaff/micro-curry.svg?style=flat-square)](https://www.npmjs.com/package/@chaff/micro-curry)
-[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaff/micro-curry.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaff/micro-curry)
+[![npm](https://img.shields.io/npm/v/@chaffity/micro-curry.svg?style=flat-square)](https://www.npmjs.com/package/@chaffity/micro-curry)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaffity/micro-curry.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaffity/micro-curry)
 
 ## Module description
 
@@ -14,7 +14,7 @@ This module allows developers to quickly curry any given function, with as littl
 The following snippet is a simple example showing how this library will work on your existing methods.
 
 ```javascript
-  const Curry = require('@chaff/micro-curry');
+  const Curry = require('@chaffity/micro-curry');
 
   // Your fancy function
   function helloToYou(firstName, lastName) {

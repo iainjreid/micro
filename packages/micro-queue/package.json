@@ -1,5 +1,5 @@
 {
-  "name": "@chaff/micro-queue",
+  "name": "@chaffity/micro-queue",
   "version": "1.0.10",
   "description": "A synchronous queue, nothing more",
   "keywords": [

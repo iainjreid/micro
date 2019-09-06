@@ -2,8 +2,8 @@
 
 🤐 Quietly handle errors using as little code as possible
 
-[![npm](https://img.shields.io/npm/v/@chaff/micro-catch.svg?style=flat-square)](https://www.npmjs.com/package/@chaff/micro-catch)
-[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaff/micro-catch.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaff/micro-catch)
+[![npm](https://img.shields.io/npm/v/@chaffity/micro-catch.svg?style=flat-square)](https://www.npmjs.com/package/@chaffity/micro-catch)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaffity/micro-catch.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaffity/micro-catch)
 
 ## Module description
 
@@ -14,7 +14,7 @@ Clunky try catch statements can spoil functional code and often lead to generali
 Here's a short example of how to guard your process from a function that may throw an error. Rather than throw the error, potentially exiting your application, the library will silence the error and log a short message to the console.
 
 ```javascript
-  const Catch = require('@chaff/micro-catch')
+  const Catch = require('@chaffity/micro-catch')
 
   // A slightly rusty function
   function mightThrow(arg) {

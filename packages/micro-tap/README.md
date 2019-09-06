@@ -1,11 +1,11 @@
-# `@chaff/micro-tap`
+# `@chaffity/micro-tap`
 
 > TODO: description
 
 ## Usage
 
 ```
-const microTap = require('@chaff/micro-tap');
+const microTap = require('@chaffity/micro-tap');
 
 // TODO: DEMONSTRATE API
 ```
