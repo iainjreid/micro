@@ -1,0 +1,30 @@
+{
+  "name": "@chaffity/micro-map",
+  "version": "0.0.0",
+  "description": "Function map method",
+  "keywords": [
+    "micro",
+    "map",
+    "function"
+  ],
+  "author": "Iain Reid <iainreid382@gmail.com>",
+  "homepage": "https://github.com/Chaffity/micro#readme",
+  "license": "MIT",
+  "main": "lib/map.js",
+  "files": [
+    "lib/map.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaffity/micro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chaffity/micro/issues"
+  },
+  "dependencies": {
+    "@chaffity/micro-curry": "0.0.7"
+  }
+}
