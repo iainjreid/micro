@@ -1,18 +1,18 @@
 {
-  "name": "@chaffity/micro-map",
+  "name": "@chaffity/micro-filter",
   "version": "0.0.0",
-  "description": "Functional map method",
+  "description": "Functional filter method",
   "keywords": [
     "micro",
-    "map",
+    "filter",
     "function"
   ],
   "author": "Iain Reid <iainreid382@gmail.com>",
   "homepage": "https://github.com/Chaffity/micro#readme",
   "license": "MIT",
-  "main": "lib/map.js",
+  "main": "lib/filter.js",
   "files": [
-    "lib/map.js"
+    "lib/filter.js"
   ],
   "publishConfig": {
     "access": "public"
