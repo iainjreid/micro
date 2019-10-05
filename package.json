@@ -6,7 +6,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@emphori/eslint-config": "^0.1.4",
+    "@emphori/eslint-config": "^0.1.7",
     "@emphori/jest-preset": "0.0.3",
     "eslint": "^6.5.1",
     "jest": "^24.9.0",
