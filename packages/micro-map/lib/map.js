@@ -1,6 +1,6 @@
 'use strict';
 
-const curry = require('@chaffity/micro-curry');
+const curry = require('@emphori/micro-curry');
 
 module.exports = curry((fn, target) => {
   const out = [];

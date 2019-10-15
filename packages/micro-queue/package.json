@@ -1,5 +1,5 @@
 {
-  "name": "@chaffity/micro-queue",
+  "name": "@emphori/micro-queue",
   "version": "1.0.11",
   "description": "A synchronous queue, nothing more",
   "keywords": [
@@ -9,8 +9,11 @@
     "task",
     "tasks"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/Chaffity/micro#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
   "main": "lib/queue.js",
   "files": [
@@ -21,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaffity/micro.git"
+    "url": "git+https://github.com/Emphori/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/micro/issues"
+    "url": "https://github.com/Emphori/micro/issues"
   }
 }

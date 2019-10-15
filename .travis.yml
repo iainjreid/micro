@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "lts/*"
+  - lts/*
 
 before_install:
   - npm install -g codecov
@@ -10,20 +10,25 @@ after_script:
   - codecov
 
 before_deploy:
-  - "echo '//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc"
-  - "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' > .npmrc"
+  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
+  - echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" >> .npmrc
 
 deploy:
   # Publish to https://registry.npmjs.org/
   - provider: script
-    script: "npx lerna publish from-package --yes --registry=https://registry.npmjs.org/"
+    script: npx lerna publish from-package --yes --registry=https://registry.npmjs.org/
     skip_cleanup: true
     on:
       branch: master
 
-  # Publish to https://npm.pkg.github.com/"
+  # Publish to https://npm.pkg.github.com/
   - provider: script
-    script: "npx lerna publish from-package --yes --registry=https://npm.pkg.github.com/"
+    script: npx lerna publish from-package --yes --registry=https://npm.pkg.github.com/
     skip_cleanup: true
     on:
       branch: master
+
+env:
+  global:
+    - secure: awS+ZQ57lB14Q++kJaM0DvT0ovZYsD4/yiaSwBrUwgeNS8SAx2/+hj999SVxXIJP2X1pUhWSw9N60m9+pvjLho99yYfF0oxy+o2w3/OLaMog7xaAfPYOaV7px2QawubPbfiWuJd7fD68f8JR/0lJtabEdZqg3E7+fXOuiB46Eowe8NZZbV1b+jQdbErFNZ9DcEr9GnbqWLowVfze+HGWE8dWeca9FY+IS1knvt0RdKYA+4ZrRZ3Q1Cog+Fo/O8BhqTQ3P6X06R/SiHkw4WcfrEW+IwuIdPnhmv3sRbGLAhocJkf4+hZCoPKXkDIidS8sjKy+69229oMr03WYNOwwKSqh6C+WtqiCddyvll/Z5kXXNM5Ir1km3G5904SEUuUwL3mv1IUc7PhCsY3FoUDNN47aZ5QKBN2veQaUrnttJy1pLHnOnryCJo3079vlkd8WOjcqZXnqs0RsSgojuRvGw21cSSezK/59jUFytq11SU8ZcgAwa+6aHozkw9L2/jShbxuHRm+Jhn9BU0FLoheE4KLAoNQA4WS2HhdqMcNsYaN+3BFgMuZ8oeF06JyDYpM/OyEO7wMBgQQnqMbvr2vs4Xa1fjuQUtVWjDfUS6QC80O5Vt7uII8k2pOPMz84jfWO5ShL1beT7fHreWS2lJo30VOxJdrHqfSqDqRQS1E7Ewc=
+    - secure: TTmhapnRoeTjf+GJfykIGuvve2MHneIq3iMAvt5MCEkLEVIObbBRKpJciJaFeJdAPyt8GLeXhF+nOffveDlw0QRNFi+PkMsEIWrNy+gDjRvH7vfKbF0BB6H/iXqmjEnnacxNxFZDX8mkEN6bb+6QRvSAct3Wt7/i9sgWvTS4pmlnRD+kKDgEaDhw/qdCH/iNE0y2d7V+98AvuL4sEhBXee1qzri0nUalbTZ+zw2JYAO5L3+neJXO+zoRKy2k8vdqR1a3LB5lscjGLXX+imhxiYOCR3uq+Qt/bPpysTWzTLvOUMGvqtUcVE7OfbnHRmZURda8QE4Onprr6u5OH9TmuZ5YJscqeYtL/egDVNFVmR9Sfx/UgC6up1q/lV6tEGzb96vcsWw/wNTFBTk+dzf6URCi7I0YxK/2juznDZuCfge6yy+hxW3nPtZ3TEyR/1HIm+ZIx6x+hkLf0PFdiCmzmRls9gg+tilc5cAvnhcgT2W07J4NDxwQvLHLHm0Pn1U1CGEZTe0jw/i4Ip1Qaz1ajdJb+dLCiWcW22FYOya8bPLnwnkZtVnuIsHz0fH5mMoLCLgaUkapreOFx7LOCWFPHjHKu1G6jj560UhEIzSPdr5xME1NVDn3KzsjrY4yfGhlz4pFOy0e+dO+DJLMz7ruYp0B5vgbJP0/w49xySbyuFE=

@@ -2,8 +2,8 @@
 
 🍛 Curry any method using as little code as possible
 
-[![npm](https://img.shields.io/npm/v/@chaffity/micro-curry.svg?style=flat-square)](https://www.npmjs.com/package/@chaffity/micro-curry)
-[![Bundlephobia](https://img.shields.io/bundlephobia/min/@chaffity/micro-curry.svg?style=flat-square)](https://bundlephobia.com/result?p=@chaffity/micro-curry)
+[![npm](https://img.shields.io/npm/v/@emphori/micro-curry.svg?style=flat-square)](https://www.npmjs.com/package/@emphori/micro-curry)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/@emphori/micro-curry.svg?style=flat-square)](https://bundlephobia.com/result?p=@emphori/micro-curry)
 
 ## Module description
 
@@ -14,7 +14,7 @@ This module allows developers to quickly curry any given function, with as littl
 The following snippet is a simple example showing how this library will work on your existing methods.
 
 ```javascript
-  const Curry = require('@chaffity/micro-curry');
+  const Curry = require('@emphori/micro-curry');
 
   // Your fancy function
   function helloToYou(firstName, lastName) {
@@ -32,4 +32,4 @@ The following snippet is a simple example showing how this library will work on 
 
 For functions with an unknown arity, functions with rest parameters for example, currying is not possible without manually providing the expected number of arguments. Without this, the currying function will assume an arity of one, which might lead to hidden bugs in your code!
 
-Part of the [Micro](https://github.com/Chaffity/micro) collection
+Part of the [Micro](https://github.com/Emphori/micro) collection

@@ -1,5 +1,5 @@
 {
-  "name": "@chaffity/micro-filter",
+  "name": "@emphori/micro-filter",
   "version": "0.0.0",
   "description": "Functional filter method",
   "keywords": [
@@ -7,8 +7,11 @@
     "filter",
     "function"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/Chaffity/micro#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
   "main": "lib/filter.js",
   "files": [
@@ -19,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaffity/micro.git"
+    "url": "git+https://github.com/Emphori/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/micro/issues"
+    "url": "https://github.com/Emphori/micro/issues"
   },
   "dependencies": {
-    "@chaffity/micro-curry": "0.0.7"
+    "@emphori/micro-curry": "0.0.7"
   }
 }

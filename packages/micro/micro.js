@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  catch: require('@chaffity/micro-catch'),
-  curry: require('@chaffity/micro-curry'),
-  pause: require('@chaffity/micro-pause'),
-  queue: require('@chaffity/micro-queue'),
-  tap: require('@chaffity/micro-tap'),
+  catch: require('@emphori/micro-catch'),
+  curry: require('@emphori/micro-curry'),
+  pause: require('@emphori/micro-pause'),
+  queue: require('@emphori/micro-queue'),
+  tap: require('@emphori/micro-tap'),
 };

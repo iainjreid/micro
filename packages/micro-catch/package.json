@@ -1,5 +1,5 @@
 {
-  "name": "@chaffity/micro-catch",
+  "name": "@emphori/micro-catch",
   "version": "1.0.6",
   "description": "Simplified error handling",
   "keywords": [
@@ -8,8 +8,11 @@
     "error",
     "handling"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/Chaffity/micro#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
   "main": "lib/catch.js",
   "files": [
@@ -20,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaffity/micro.git"
+    "url": "git+https://github.com/Emphori/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/micro/issues"
+    "url": "https://github.com/Emphori/micro/issues"
   }
 }

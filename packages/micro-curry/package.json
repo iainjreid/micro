@@ -1,5 +1,5 @@
 {
-  "name": "@chaffity/micro-curry",
+  "name": "@emphori/micro-curry",
   "version": "0.0.7",
   "description": "Simplified method currying",
   "keywords": [
@@ -7,8 +7,11 @@
     "curry",
     "function"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/Chaffity/micro#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
   "main": "lib/curry.js",
   "files": [
@@ -19,9 +22,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaffity/micro.git"
+    "url": "git+https://github.com/Emphori/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/micro/issues"
+    "url": "https://github.com/Emphori/micro/issues"
   }
 }

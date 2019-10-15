@@ -1,12 +1,15 @@
 {
-  "name": "@chaffity/micro-tap",
+  "name": "@emphori/micro-tap",
   "version": "0.0.3",
   "description": "Quickly access a value within a fuction chain",
   "keywords": [
     "tap"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com>",
-  "homepage": "https://github.com/Chaffity/micro#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
   "main": "lib/tap.js",
   "files": [
@@ -17,9 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaffity/micro.git"
+    "url": "git+https://github.com/Emphori/micro.git"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/micro/issues"
+    "url": "https://github.com/Emphori/micro/issues"
   }
 }
