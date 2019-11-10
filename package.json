@@ -10,7 +10,7 @@
     "@emphori/jest-preset": "0.0.3",
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
-    "lerna": "^3.18.3"
+    "lerna": "^3.18.4"
   },
   "eslintConfig": {
     "extends": "@emphori",
