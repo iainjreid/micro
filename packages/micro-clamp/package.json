@@ -1,0 +1,30 @@
+{
+  "name": "@emphori/micro-clamp",
+  "version": "0.0.0",
+  "description": "Clamp an integer between two values",
+  "keywords": [
+    "micro",
+    "clamp",
+    "function"
+  ],
+  "author": "Emphori (https://emphori.studio)",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "homepage": "https://github.com/Emphori/micro#readme",
+  "license": "MIT",
+  "main": "lib/clamp.js",
+  "files": [
+    "lib/clamp.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emphori/micro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Emphori/micro/issues"
+  }
+}
