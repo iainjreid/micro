@@ -1,8 +1,9 @@
 {
   "name": "micro",
   "scripts": {
-    "install": "lerna bootstrap",
+    "install": "lerna link",
     "lint": "eslint .",
+		"prepare": "lerna run prepare",
     "test": "jest"
   },
   "devDependencies": {
@@ -10,7 +11,8 @@
     "@emphori/jest-preset": "0.0.3",
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
-    "lerna": "^3.18.4"
+    "lerna": "^3.18.4",
+    "typescript": "^3.8.3"
   },
   "eslintConfig": {
     "extends": "@emphori",

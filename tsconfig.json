@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2015",
+    "module": "none",
+    "strict": true,
+    "declaration": true,
+		"skipLibCheck": true,
+    "paths": {}
+  },
+  "exclude": [
+    "**/lib/**/*",
+    "**/*.spec.ts"
+  ]
+}
