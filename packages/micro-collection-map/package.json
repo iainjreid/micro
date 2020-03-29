@@ -1,10 +1,10 @@
 {
-  "name": "@emphori/micro-collection-tail",
+  "name": "@emphori/micro-collection-map",
   "version": "0.0.0",
-  "description": "Functional tail method",
+  "description": "Functional map method",
   "keywords": [
     "micro",
-    "tail",
+    "map",
     "function"
   ],
   "author": "Emphori (https://emphori.studio)",
@@ -13,7 +13,7 @@
   ],
   "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
-  "main": "lib/micro-collection-tail.js",
+  "main": "lib/micro-collection-map.js",
   "files": [
     "lib"
   ],
