@@ -1,5 +1,6 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+// Todo: Improve typings in this file
 function M(fn, arity = fn.length) {
     const o = function () {
         const args = Array.prototype.slice.call(arguments, 0, arity);

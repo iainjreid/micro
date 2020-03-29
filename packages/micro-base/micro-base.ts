@@ -1,5 +1,6 @@
 'use strict';
 
+// Todo: Improve typings in this file
 export default function M(fn: Function, arity = fn.length) {
   const o: any = function(this: any) {
     const args = Array.prototype.slice.call(arguments, 0, arity)

@@ -1,9 +1,11 @@
 'use strict';
 
-const M = require('./supports');
+import base from "./micro-base"
 
 describe('Helpers', () => {
-  const fn = M((a, b, c, d) => [a, b, c, d]);
+  const fn = base((a: number, b: number, c: number, d: number) => {
+    return [a, b, c, d]
+  });
 
   test('flip', () => {
     expect(fn.F(1, 2, 3, 4)).toEqual([4, 3, 2, 1]);

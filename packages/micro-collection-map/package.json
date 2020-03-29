@@ -1,10 +1,10 @@
 {
-  "name": "@emphori/micro-map",
+  "name": "@emphori/micro-collection-tail",
   "version": "0.0.0",
-  "description": "Functional map method",
+  "description": "Functional tail method",
   "keywords": [
     "micro",
-    "map",
+    "tail",
     "function"
   ],
   "author": "Emphori (https://emphori.studio)",
@@ -13,12 +13,15 @@
   ],
   "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
-  "main": "lib/map.js",
+  "main": "lib/micro-collection-tail.js",
   "files": [
-    "lib/map.js"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,6 @@
     "url": "https://github.com/Emphori/micro/issues"
   },
   "dependencies": {
-    "@emphori/micro-curry": "0.0.7"
+    "@emphori/micro-base": "*"
   }
 }

@@ -3,15 +3,17 @@
   "scripts": {
     "install": "lerna link",
     "lint": "eslint .",
-		"prepare": "lerna run prepare",
+    "prepare": "lerna run prepare",
     "test": "jest"
   },
   "devDependencies": {
     "@emphori/eslint-config": "^0.1.7",
-    "@emphori/jest-preset": "0.0.3",
+    "@emphori/jest-preset": "0.0.5",
+    "@types/jest": "^25.1.4",
     "eslint": "^6.6.0",
-    "jest": "^24.9.0",
+    "jest": "^25.2.3",
     "lerna": "^3.18.4",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   },
   "eslintConfig": {
@@ -23,7 +25,7 @@
   "jest": {
     "preset": "@emphori/jest-preset",
     "collectCoverageFrom": [
-      "packages/*/lib/*.js"
+      "packages/*/*{!.spec}.ts"
     ]
   },
   "license": "MIT",

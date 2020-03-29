@@ -6,7 +6,11 @@
     "strict": true,
     "declaration": true,
 		"skipLibCheck": true,
-    "paths": {}
+    "paths": {
+      "@emphori/micro-base": [
+				"./packages/micro-base/lib/micro-base"
+		  ]
+		}
   },
   "exclude": [
     "**/lib/**/*",
