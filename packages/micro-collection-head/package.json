@@ -1,10 +1,10 @@
 {
-  "name": "@emphori/micro-filter",
+  "name": "@emphori/micro-collection-head",
   "version": "0.0.0",
-  "description": "Functional filter method",
+  "description": "Functional head method",
   "keywords": [
     "micro",
-    "filter",
+    "head",
     "function"
   ],
   "author": "Emphori (https://emphori.studio)",
@@ -13,12 +13,15 @@
   ],
   "homepage": "https://github.com/Emphori/micro#readme",
   "license": "MIT",
-  "main": "lib/filter.js",
+  "main": "lib/micro-collection-head.js",
   "files": [
-    "lib/filter.js"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,6 @@
     "url": "https://github.com/Emphori/micro/issues"
   },
   "dependencies": {
-    "@emphori/micro-base": "*",
-    "@emphori/micro-curry": "0.0.7"
+    "@emphori/micro-base": "*"
   }
 }
