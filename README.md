@@ -16,9 +16,14 @@
   <img src="https://img.shields.io/depfu/Emphori/micro.svg?style=flat-square" />
 </p>
 
+This library is currently under active development, so please avoid using any
+of the exposed methods in projects that depend on any degree of upstream
+stability!
+
 ## Description
 
-Micro is a collection of individually packaged helpers, functional blocks, and general knick-knacks that often get repeated between projects.
+A collection of individually packaged helpers, functional blocks, and generally
+useful knick-knacks that often get repeated between projects.
 
 ## License
 
