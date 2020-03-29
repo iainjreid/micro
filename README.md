@@ -12,8 +12,6 @@
   <a href="https://lgtm.com/projects/g/Emphori/micro">
     <img src="https://img.shields.io/lgtm/grade/javascript/github/Emphori/micro.svg?style=flat-square">
   </a>
-
-  <img src="https://img.shields.io/depfu/Emphori/micro.svg?style=flat-square" />
 </p>
 
 This library is currently under active development, so please avoid using any
