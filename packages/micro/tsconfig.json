@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./lib"
+  },
+  "includes": [
+    "./micro.d.ts"
+  ]
+}

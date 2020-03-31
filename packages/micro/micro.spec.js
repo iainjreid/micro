@@ -2,6 +2,18 @@
 
 const M = require('./micro')
 
+describe('array-concat', () => {
+  it('merges two arrays', () => {
+    expect(M.Array.concat([4, 5, 6], [1, 2, 3])).toEqual([1, 2, 3, 4, 5, 6])
+  })
+})
+
+describe('array-copyWithin', () => {
+  it('copies an array chunk to a given index', () => {
+    expect(M.Array.copyWithin(0, 1, 3, [1, 2, 3])).toEqual([2, 3, 3])
+  })
+})
+
 describe('array-filter', () => {
   it('removes non-truthy elements from an array', () => {
     expect(M.Array.filter((elem) => elem, [1, 0, 0, 1, 1])).toEqual([1, 1, 1])

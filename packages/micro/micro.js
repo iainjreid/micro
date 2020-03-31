@@ -1,9 +1,10 @@
 'use strict'
 
-const base = require("@emphori/micro-base").default
+const base = require('@emphori/micro-base').default
 
 const arityMap = new WeakMap()
 
+arityMap.set(Array.prototype.copyWithin, 4)
 arityMap.set(Array.prototype.reduce, 3)
 
 module.exports = new Proxy(global, {
