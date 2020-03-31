@@ -14,6 +14,12 @@ describe('array-copyWithin', () => {
   })
 })
 
+describe('array-entries', () => {
+  it('creates an iterator from an array', () => {
+    expect(typeof M.Array.entries([1, 2, 3])[Symbol.iterator]).toEqual('function')
+  })
+})
+
 describe('array-filter', () => {
   it('removes non-truthy elements from an array', () => {
     expect(M.Array.filter((elem) => elem, [1, 0, 0, 1, 1])).toEqual([1, 1, 1])
