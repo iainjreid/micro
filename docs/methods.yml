@@ -1,0 +1,23 @@
+- name: concat
+  memberOf: Array
+  summary: Merge two arrays
+
+- name: copyWithin
+  memberOf: Array
+  summary: Shallow copy part of an array to another location in that array
+
+- name: entries
+  memberOf: Array
+  summary: Retrieve an iterator from an array
+
+- name: filter
+  memberOf: Array
+  summary: Create a new array with all of the elements that pass a given condition
+
+- name: map
+  memberOf: Array
+  summary: Apply a function over each element in an array
+
+- name: reduce
+  memberOf: Array
+  summary: Reduce an array to a single output value
