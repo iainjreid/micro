@@ -35,6 +35,9 @@
     "micro.js"
   ],
   "dependencies": {
+    "@emphori/micro-base": "*"
+  },
+  "optionalDependencies": {
     "@emphori/micro-catch": "*",
     "@emphori/micro-curry": "*",
     "@emphori/micro-pause": "*",
