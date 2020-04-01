@@ -10,6 +10,10 @@
   memberOf: Array
   summary: Retrieve an iterator from an array
 
+- name: every
+  memberOf: Array
+  summary: Tests whether all of the elements match the given condition
+
 - name: filter
   memberOf: Array
   summary: Create a new array with all of the elements that pass a given condition
