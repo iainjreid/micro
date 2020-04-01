@@ -21,3 +21,7 @@
 - name: reduce
   memberOf: Array
   summary: Reduce an array to a single output value
+
+- name: some
+  memberOf: Array
+  summary: Tests that none of the element match the given condition
