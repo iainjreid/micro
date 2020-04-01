@@ -20,8 +20,14 @@ stability!
 
 ## Description
 
-A collection of individually packaged helpers, functional blocks, and generally
-useful knick-knacks that often get repeated between projects.
+This is a unique approach to the standard utility library, leveraging modern
+meta-programming techniques now widely available in most JavaScript runtimes,
+Micro brings to the table a huge reduction in the bundle size for any project
+currently using Lodash, Ramda, or Underscore.
+
+As well as the above, this project plays host to a collection of individually
+packaged helpers, functional blocks, and generally useful knick-knacks that
+often get repeated between projects.
 
 ## License
 
