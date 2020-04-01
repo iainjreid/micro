@@ -329,10 +329,10 @@ often get repeated between projects.
 
 | Method                 | Tested | Documented |
 | ---                    | ---    | ---        |
-| `\_\_defineGetter\_\_` |        |            |
-| `\_\_defineSetter\_\_` |        |            |
-| `\_\_lookupGetter\_\_` |        |            |
-| `\_\_lookupSetter\_\_` |        |            |
+| `__defineGetter__`     |        |            |
+| `__defineSetter__`     |        |            |
+| `__lookupGetter__`     |        |            |
+| `__lookupSetter__`     |        |            |
 | `hasOwnProperty`       |        |            |
 | `isPrototypeOf`        |        |            |
 | `propertyIsEnumerable` |        |            |
