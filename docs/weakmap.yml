@@ -1,0 +1,17 @@
+namespace: WeakMap
+members:
+  - name: delete
+    type: function
+    summary:
+
+  - name: get
+    type: function
+    summary:
+
+  - name: has
+    type: function
+    summary:
+
+  - name: set
+    type: function
+    summary:

@@ -1,0 +1,5 @@
+namespace: RangeError
+members:
+  - name: toString
+    type: function
+    summary:

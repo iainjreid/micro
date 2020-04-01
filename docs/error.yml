@@ -1,0 +1,5 @@
+namespace: Error
+members:
+  - name: toString
+    type: function
+    summary:

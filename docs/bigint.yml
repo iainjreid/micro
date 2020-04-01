@@ -1,0 +1,13 @@
+namespace: BigInt
+members:
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

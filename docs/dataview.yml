@@ -1,0 +1,81 @@
+namespace: DataView
+members:
+  - name: getBigInt64
+    type: function
+    summary:
+
+  - name: getBigUint64
+    type: function
+    summary:
+
+  - name: getFloat32
+    type: function
+    summary:
+
+  - name: getFloat64
+    type: function
+    summary:
+
+  - name: getInt16
+    type: function
+    summary:
+
+  - name: getInt32
+    type: function
+    summary:
+
+  - name: getInt8
+    type: function
+    summary:
+
+  - name: getUint16
+    type: function
+    summary:
+
+  - name: getUint32
+    type: function
+    summary:
+
+  - name: getUint8
+    type: function
+    summary:
+
+  - name: setBigInt64
+    type: function
+    summary:
+
+  - name: setBigUint64
+    type: function
+    summary:
+
+  - name: setFloat32
+    type: function
+    summary:
+
+  - name: setFloat64
+    type: function
+    summary:
+
+  - name: setInt16
+    type: function
+    summary:
+
+  - name: setInt32
+    type: function
+    summary:
+
+  - name: setInt8
+    type: function
+    summary:
+
+  - name: setUint16
+    type: function
+    summary:
+
+  - name: setUint32
+    type: function
+    summary:
+
+  - name: setUint8
+    type: function
+    summary:

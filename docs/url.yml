@@ -1,0 +1,9 @@
+namespace: URL
+members:
+  - name: toJSON
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:

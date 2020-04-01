@@ -1,0 +1,13 @@
+namespace: Promise
+members:
+  - name: catch
+    type: function
+    summary:
+
+  - name: finally
+    type: function
+    summary:
+
+  - name: then
+    type: function
+    summary:

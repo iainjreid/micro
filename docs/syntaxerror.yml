@@ -1,0 +1,5 @@
+namespace: SyntaxError
+members:
+  - name: toString
+    type: function
+    summary:

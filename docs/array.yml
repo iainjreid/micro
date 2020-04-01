@@ -1,0 +1,125 @@
+namespace: Array
+members:
+  - name: concat
+    type: function
+    summary: Merge two arrays
+
+  - name: copyWithin
+    type: function
+    summary: Shallow copy part of an array to another location in that array
+
+  - name: entries
+    type: function
+    summary: Retrieve an iterator from an array
+
+  - name: every
+    type: function
+    summary: Tests whether all of the elements match the given condition
+
+  - name: fill
+    type: function
+    summary:
+
+  - name: filter
+    type: function
+    summary: Create a new array with all of the elements that pass a given condition
+
+  - name: find
+    type: function
+    summary:
+
+  - name: findIndex
+    type: function
+    summary:
+
+  - name: flat
+    type: function
+    summary:
+
+  - name: flatMap
+    type: function
+    summary:
+
+  - name: forEach
+    type: function
+    summary:
+
+  - name: includes
+    type: function
+    summary:
+
+  - name: indexOf
+    type: function
+    summary:
+
+  - name: join
+    type: function
+    summary:
+
+  - name: keys
+    type: function
+    summary:
+
+  - name: lastIndexOf
+    type: function
+    summary:
+
+  - name: map
+    type: function
+    summary: Apply a function over each element in an array
+
+  - name: pop
+    type: function
+    summary:
+
+  - name: push
+    type: function
+    summary:
+
+  - name: reduce
+    type: function
+    summary: Reduce an array to a single output value
+
+  - name: reduceRight
+    type: function
+    summary:
+
+  - name: reverse
+    type: function
+    summary:
+
+  - name: shift
+    type: function
+    summary:
+
+  - name: slice
+    type: function
+    summary:
+
+  - name: some
+    type: function
+    summary: Reduce an array to a single output value
+
+  - name: sort
+    type: function
+    summary:
+
+  - name: splice
+    type: function
+    summary:
+
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: unshift
+    type: function
+    summary:
+
+  - name: values
+    type: function
+    summary:

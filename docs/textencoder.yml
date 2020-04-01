@@ -1,0 +1,9 @@
+namespace: TextEncoder
+members:
+  - name: encode
+    type: function
+    summary:
+
+  - name: encodeInto
+    type: function
+    summary:

@@ -1,0 +1,17 @@
+namespace: Function
+members:
+  - name: apply
+    type: function
+    summary:
+
+  - name: bind
+    type: function
+    summary:
+
+  - name: call
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:

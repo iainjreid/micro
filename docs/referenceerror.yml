@@ -1,0 +1,5 @@
+namespace: ReferenceError
+members:
+  - name: toString
+    type: function
+    summary:

@@ -1,0 +1,5 @@
+namespace: TextDecoder
+members:
+  - name: decode
+    type: function
+    summary:

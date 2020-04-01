@@ -1,0 +1,41 @@
+namespace: Object
+members:
+  - name: __defineGetter__
+    type: function
+    summary:
+
+  - name: __defineSetter__
+    type: function
+    summary:
+
+  - name: __lookupGetter__
+    type: function
+    summary:
+
+  - name: __lookupSetter__
+    type: function
+    summary:
+
+  - name: hasOwnProperty
+    type: function
+    summary:
+
+  - name: isPrototypeOf
+    type: function
+    summary:
+
+  - name: propertyIsEnumerable
+    type: function
+    summary:
+
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

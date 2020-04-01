@@ -1,0 +1,185 @@
+namespace: String
+members:
+  - name: anchor
+    type: function
+    summary:
+
+  - name: big
+    type: function
+    summary:
+
+  - name: blink
+    type: function
+    summary:
+
+  - name: bold
+    type: function
+    summary:
+
+  - name: charAt
+    type: function
+    summary:
+
+  - name: charCodeAt
+    type: function
+    summary:
+
+  - name: codePointAt
+    type: function
+    summary:
+
+  - name: concat
+    type: function
+    summary:
+
+  - name: endsWith
+    type: function
+    summary:
+
+  - name: fixed
+    type: function
+    summary:
+
+  - name: fontcolor
+    type: function
+    summary:
+
+  - name: fontsize
+    type: function
+    summary:
+
+  - name: includes
+    type: function
+    summary:
+
+  - name: indexOf
+    type: function
+    summary:
+
+  - name: italics
+    type: function
+    summary:
+
+  - name: lastIndexOf
+    type: function
+    summary:
+
+  - name: link
+    type: function
+    summary:
+
+  - name: localeCompare
+    type: function
+    summary:
+
+  - name: match
+    type: function
+    summary:
+
+  - name: matchAll
+    type: function
+    summary:
+
+  - name: normalize
+    type: function
+    summary:
+
+  - name: padEnd
+    type: function
+    summary:
+
+  - name: padStart
+    type: function
+    summary:
+
+  - name: repeat
+    type: function
+    summary:
+
+  - name: replace
+    type: function
+    summary:
+
+  - name: search
+    type: function
+    summary:
+
+  - name: slice
+    type: function
+    summary:
+
+  - name: small
+    type: function
+    summary:
+
+  - name: split
+    type: function
+    summary:
+
+  - name: startsWith
+    type: function
+    summary:
+
+  - name: strike
+    type: function
+    summary:
+
+  - name: sub
+    type: function
+    summary:
+
+  - name: substr
+    type: function
+    summary:
+
+  - name: substring
+    type: function
+    summary:
+
+  - name: sup
+    type: function
+    summary:
+
+  - name: toLocaleLowerCase
+    type: function
+    summary:
+
+  - name: toLocaleUpperCase
+    type: function
+    summary:
+
+  - name: toLowerCase
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: toUpperCase
+    type: function
+    summary:
+
+  - name: trim
+    type: function
+    summary:
+
+  - name: trimEnd
+    type: function
+    summary:
+
+  - name: trimLeft
+    type: function
+    summary:
+
+  - name: trimRight
+    type: function
+    summary:
+
+  - name: trimStart
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

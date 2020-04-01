@@ -1,0 +1,13 @@
+namespace: WeakSet
+members:
+  - name: add
+    type: function
+    summary:
+
+  - name: delete
+    type: function
+    summary:
+
+  - name: has
+    type: function
+    summary:

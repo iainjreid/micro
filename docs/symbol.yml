@@ -1,0 +1,9 @@
+namespace: Symbol
+members:
+  - name: toString
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

@@ -1,0 +1,5 @@
+namespace: SharedArrayBuffer
+members:
+  - name: slice
+    type: function
+    summary:

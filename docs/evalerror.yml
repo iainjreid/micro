@@ -1,0 +1,5 @@
+namespace: EvalError
+members:
+  - name: toString
+    type: function
+    summary:

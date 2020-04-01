@@ -1,0 +1,37 @@
+namespace: Map
+members:
+  - name: clear
+    type: function
+    summary:
+
+  - name: delete
+    type: function
+    summary:
+
+  - name: entries
+    type: function
+    summary:
+
+  - name: forEach
+    type: function
+    summary:
+
+  - name: get
+    type: function
+    summary:
+
+  - name: has
+    type: function
+    summary:
+
+  - name: keys
+    type: function
+    summary:
+
+  - name: set
+    type: function
+    summary:
+
+  - name: values
+    type: function
+    summary:

@@ -1,0 +1,289 @@
+namespace: Buffer
+members:
+  - name: asciiSlice
+    type: function
+    summary:
+
+  - name: asciiWrite
+    type: function
+    summary:
+
+  - name: base64Slice
+    type: function
+    summary:
+
+  - name: base64Write
+    type: function
+    summary:
+
+  - name: compare
+    type: function
+    summary:
+
+  - name: copy
+    type: function
+    summary:
+
+  - name: equals
+    type: function
+    summary:
+
+  - name: fill
+    type: function
+    summary:
+
+  - name: hexSlice
+    type: function
+    summary:
+
+  - name: hexWrite
+    type: function
+    summary:
+
+  - name: includes
+    type: function
+    summary:
+
+  - name: indexOf
+    type: function
+    summary:
+
+  - name: inspect
+    type: function
+    summary:
+
+  - name: lastIndexOf
+    type: function
+    summary:
+
+  - name: latin1Slice
+    type: function
+    summary:
+
+  - name: latin1Write
+    type: function
+    summary:
+
+  - name: readBigInt64BE
+    type: function
+    summary:
+
+  - name: readBigInt64LE
+    type: function
+    summary:
+
+  - name: readBigUInt64BE
+    type: function
+    summary:
+
+  - name: readBigUInt64LE
+    type: function
+    summary:
+
+  - name: readDoubleBE
+    type: function
+    summary:
+
+  - name: readDoubleLE
+    type: function
+    summary:
+
+  - name: readFloatBE
+    type: function
+    summary:
+
+  - name: readFloatLE
+    type: function
+    summary:
+
+  - name: readInt16BE
+    type: function
+    summary:
+
+  - name: readInt16LE
+    type: function
+    summary:
+
+  - name: readInt32BE
+    type: function
+    summary:
+
+  - name: readInt32LE
+    type: function
+    summary:
+
+  - name: readInt8
+    type: function
+    summary:
+
+  - name: readIntBE
+    type: function
+    summary:
+
+  - name: readIntLE
+    type: function
+    summary:
+
+  - name: readUInt16BE
+    type: function
+    summary:
+
+  - name: readUInt16LE
+    type: function
+    summary:
+
+  - name: readUInt32BE
+    type: function
+    summary:
+
+  - name: readUInt32LE
+    type: function
+    summary:
+
+  - name: readUInt8
+    type: function
+    summary:
+
+  - name: readUIntBE
+    type: function
+    summary:
+
+  - name: readUIntLE
+    type: function
+    summary:
+
+  - name: slice
+    type: function
+    summary:
+
+  - name: swap16
+    type: function
+    summary:
+
+  - name: swap32
+    type: function
+    summary:
+
+  - name: swap64
+    type: function
+    summary:
+
+  - name: toJSON
+    type: function
+    summary:
+
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: ucs2Slice
+    type: function
+    summary:
+
+  - name: ucs2Write
+    type: function
+    summary:
+
+  - name: utf8Slice
+    type: function
+    summary:
+
+  - name: utf8Write
+    type: function
+    summary:
+
+  - name: write
+    type: function
+    summary:
+
+  - name: writeBigInt64BE
+    type: function
+    summary:
+
+  - name: writeBigInt64LE
+    type: function
+    summary:
+
+  - name: writeBigUInt64BE
+    type: function
+    summary:
+
+  - name: writeBigUInt64LE
+    type: function
+    summary:
+
+  - name: writeDoubleBE
+    type: function
+    summary:
+
+  - name: writeDoubleLE
+    type: function
+    summary:
+
+  - name: writeFloatBE
+    type: function
+    summary:
+
+  - name: writeFloatLE
+    type: function
+    summary:
+
+  - name: writeInt16BE
+    type: function
+    summary:
+
+  - name: writeInt16LE
+    type: function
+    summary:
+
+  - name: writeInt32BE
+    type: function
+    summary:
+
+  - name: writeInt32LE
+    type: function
+    summary:
+
+  - name: writeInt8
+    type: function
+    summary:
+
+  - name: writeIntBE
+    type: function
+    summary:
+
+  - name: writeIntLE
+    type: function
+    summary:
+
+  - name: writeUInt16BE
+    type: function
+    summary:
+
+  - name: writeUInt16LE
+    type: function
+    summary:
+
+  - name: writeUInt32BE
+    type: function
+    summary:
+
+  - name: writeUInt32LE
+    type: function
+    summary:
+
+  - name: writeUInt8
+    type: function
+    summary:
+
+  - name: writeUIntBE
+    type: function
+    summary:
+
+  - name: writeUIntLE
+    type: function
+    summary:

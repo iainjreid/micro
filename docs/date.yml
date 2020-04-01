@@ -1,0 +1,185 @@
+namespace: Date
+members:
+  - name: getDate
+    type: function
+    summary:
+
+  - name: getDay
+    type: function
+    summary:
+
+  - name: getFullYear
+    type: function
+    summary:
+
+  - name: getHours
+    type: function
+    summary:
+
+  - name: getMilliseconds
+    type: function
+    summary:
+
+  - name: getMinutes
+    type: function
+    summary:
+
+  - name: getMonth
+    type: function
+    summary:
+
+  - name: getSeconds
+    type: function
+    summary:
+
+  - name: getTime
+    type: function
+    summary:
+
+  - name: getTimezoneOffset
+    type: function
+    summary:
+
+  - name: getUTCDate
+    type: function
+    summary:
+
+  - name: getUTCDay
+    type: function
+    summary:
+
+  - name: getUTCFullYear
+    type: function
+    summary:
+
+  - name: getUTCHours
+    type: function
+    summary:
+
+  - name: getUTCMilliseconds
+    type: function
+    summary:
+
+  - name: getUTCMinutes
+    type: function
+    summary:
+
+  - name: getUTCMonth
+    type: function
+    summary:
+
+  - name: getUTCSeconds
+    type: function
+    summary:
+
+  - name: getYear
+    type: function
+    summary:
+
+  - name: setDate
+    type: function
+    summary:
+
+  - name: setFullYear
+    type: function
+    summary:
+
+  - name: setHours
+    type: function
+    summary:
+
+  - name: setMilliseconds
+    type: function
+    summary:
+
+  - name: setMinutes
+    type: function
+    summary:
+
+  - name: setMonth
+    type: function
+    summary:
+
+  - name: setSeconds
+    type: function
+    summary:
+
+  - name: setTime
+    type: function
+    summary:
+
+  - name: setUTCDate
+    type: function
+    summary:
+
+  - name: setUTCFullYear
+    type: function
+    summary:
+
+  - name: setUTCHours
+    type: function
+    summary:
+
+  - name: setUTCMilliseconds
+    type: function
+    summary:
+
+  - name: setUTCMinutes
+    type: function
+    summary:
+
+  - name: setUTCMonth
+    type: function
+    summary:
+
+  - name: setUTCSeconds
+    type: function
+    summary:
+
+  - name: setYear
+    type: function
+    summary:
+
+  - name: toDateString
+    type: function
+    summary:
+
+  - name: toGMTString
+    type: function
+    summary:
+
+  - name: toISOString
+    type: function
+    summary:
+
+  - name: toJSON
+    type: function
+    summary:
+
+  - name: toLocaleDateString
+    type: function
+    summary:
+
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toLocaleTimeString
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: toTimeString
+    type: function
+    summary:
+
+  - name: toUTCString
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

@@ -1,0 +1,5 @@
+namespace: URIError
+members:
+  - name: toString
+    type: function
+    summary:

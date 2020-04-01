@@ -1,0 +1,25 @@
+namespace: Number
+members:
+  - name: toExponential
+    type: function
+    summary:
+
+  - name: toFixed
+    type: function
+    summary:
+
+  - name: toLocaleString
+    type: function
+    summary:
+
+  - name: toPrecision
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
+
+  - name: valueOf
+    type: function
+    summary:

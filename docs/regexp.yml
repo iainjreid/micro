@@ -1,0 +1,17 @@
+namespace: RegExp
+members:
+  - name: compile
+    type: function
+    summary:
+
+  - name: exec
+    type: function
+    summary:
+
+  - name: test
+    type: function
+    summary:
+
+  - name: toString
+    type: function
+    summary:
