@@ -48,3 +48,8 @@ describe('array-reduce', () => {
   })
 })
 
+describe('array-some', () => {
+  it('check that no elements in an array pass a given condition', () => {
+    expect(M.Array.some((elem) => elem > 2, [1, 2, 3])).toEqual(true)
+  })
+})
