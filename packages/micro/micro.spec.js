@@ -20,6 +20,12 @@ describe('array-entries', () => {
   })
 })
 
+describe('array-every', () => {
+  it('check that all elements in an array pass a given condition', () => {
+    expect(M.Array.every((elem) => elem > 0, [1, 2, 3])).toEqual(true)
+  })
+})
+
 describe('array-filter', () => {
   it('removes non-truthy elements from an array', () => {
     expect(M.Array.filter((elem) => elem, [1, 0, 0, 1, 1])).toEqual([1, 1, 1])
