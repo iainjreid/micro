@@ -34,6 +34,10 @@ often get repeated between projects.
 
 ## Library coverage
 
+In theory, Micro covers every instance method exposed by JavaScript's standard
+built-in objects. Below is a short excerpt from the official documentation
+outlining the current testing and documentation efforts.
+
 ### Array
 
 | Method                 | Tested | Documented |
@@ -69,139 +73,6 @@ often get repeated between projects.
 | `toString`             |        |            |
 | `unshift`              |        |            |
 | `values`               |        |            |
-
-### ArrayBuffer
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `slice`                |        |            |
-
-### BigInt
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toLocaleString`       |        |            |
-| `toString`             |        |            |
-| `valueOf`              |        |            |
-
-### BigInt64Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### BigUint64Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Boolean
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-| `valueOf`              |        |            |
-
-### Buffer
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `asciiSlice`           |        |            |
-| `asciiWrite`           |        |            |
-| `base64Slice`          |        |            |
-| `base64Write`          |        |            |
-| `compare`              |        |            |
-| `copy`                 |        |            |
-| `equals`               |        |            |
-| `fill`                 |        |            |
-| `hexSlice`             |        |            |
-| `hexWrite`             |        |            |
-| `includes`             |        |            |
-| `indexOf`              |        |            |
-| `inspect`              |        |            |
-| `lastIndexOf`          |        |            |
-| `latin1Slice`          |        |            |
-| `latin1Write`          |        |            |
-| `readBigInt64BE`       |        |            |
-| `readBigInt64LE`       |        |            |
-| `readBigUInt64BE`      |        |            |
-| `readBigUInt64LE`      |        |            |
-| `readDoubleBE`         |        |            |
-| `readDoubleLE`         |        |            |
-| `readFloatBE`          |        |            |
-| `readFloatLE`          |        |            |
-| `readInt16BE`          |        |            |
-| `readInt16LE`          |        |            |
-| `readInt32BE`          |        |            |
-| `readInt32LE`          |        |            |
-| `readInt8`             |        |            |
-| `readIntBE`            |        |            |
-| `readIntLE`            |        |            |
-| `readUInt16BE`         |        |            |
-| `readUInt16LE`         |        |            |
-| `readUInt32BE`         |        |            |
-| `readUInt32LE`         |        |            |
-| `readUInt8`            |        |            |
-| `readUIntBE`           |        |            |
-| `readUIntLE`           |        |            |
-| `slice`                |        |            |
-| `swap16`               |        |            |
-| `swap32`               |        |            |
-| `swap64`               |        |            |
-| `toJSON`               |        |            |
-| `toLocaleString`       |        |            |
-| `toString`             |        |            |
-| `ucs2Slice`            |        |            |
-| `ucs2Write`            |        |            |
-| `utf8Slice`            |        |            |
-| `utf8Write`            |        |            |
-| `write`                |        |            |
-| `writeBigInt64BE`      |        |            |
-| `writeBigInt64LE`      |        |            |
-| `writeBigUInt64BE`     |        |            |
-| `writeBigUInt64LE`     |        |            |
-| `writeDoubleBE`        |        |            |
-| `writeDoubleLE`        |        |            |
-| `writeFloatBE`         |        |            |
-| `writeFloatLE`         |        |            |
-| `writeInt16BE`         |        |            |
-| `writeInt16LE`         |        |            |
-| `writeInt32BE`         |        |            |
-| `writeInt32LE`         |        |            |
-| `writeInt8`            |        |            |
-| `writeIntBE`           |        |            |
-| `writeIntLE`           |        |            |
-| `writeUInt16BE`        |        |            |
-| `writeUInt16LE`        |        |            |
-| `writeUInt32BE`        |        |            |
-| `writeUInt32LE`        |        |            |
-| `writeUInt8`           |        |            |
-| `writeUIntBE`          |        |            |
-| `writeUIntLE`          |        |            |
-
-### DataView
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `getBigInt64`          |        |            |
-| `getBigUint64`         |        |            |
-| `getFloat32`           |        |            |
-| `getFloat64`           |        |            |
-| `getInt16`             |        |            |
-| `getInt32`             |        |            |
-| `getInt8`              |        |            |
-| `getUint16`            |        |            |
-| `getUint32`            |        |            |
-| `getUint8`             |        |            |
-| `setBigInt64`          |        |            |
-| `setBigUint64`         |        |            |
-| `setFloat32`           |        |            |
-| `setFloat64`           |        |            |
-| `setInt16`             |        |            |
-| `setInt32`             |        |            |
-| `setInt8`              |        |            |
-| `setUint16`            |        |            |
-| `setUint32`            |        |            |
-| `setUint8`             |        |            |
 
 ### Date
 
@@ -254,52 +125,6 @@ often get repeated between projects.
 | `toUTCString`          |        |            |
 | `valueOf`              |        |            |
 
-### Error
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### EvalError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### Float32Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Float64Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Function
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `apply`                |        |            |
-| `bind`                 |        |            |
-| `call`                 |        |            |
-| `toString`             |        |            |
-
-### Int16Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Int32Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Int8Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
 ### Map
 
 | Method                 | Tested | Documented |
@@ -348,18 +173,6 @@ often get repeated between projects.
 | `finally`              |        |            |
 | `then`                 |        |            |
 
-### RangeError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### ReferenceError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
 ### RegExp
 
 | Method                 | Tested | Documented |
@@ -381,12 +194,6 @@ often get repeated between projects.
 | `has`                  |        |            |
 | `keys`                 |        |            |
 | `values`               |        |            |
-
-### SharedArrayBuffer
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `slice`                |        |            |
 
 ### String
 
@@ -438,88 +245,6 @@ often get repeated between projects.
 | `trimRight`            |        |            |
 | `trimStart`            |        |            |
 | `valueOf`              |        |            |
-
-### Symbol
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-| `valueOf`              |        |            |
-
-### SyntaxError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### TextDecoder
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `decode`               |        |            |
-
-### TextEncoder
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `encode`               |        |            |
-| `encodeInto`           |        |            |
-
-### TypeError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### URIError
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toString`             |        |            |
-
-### URL
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toJSON`               |        |            |
-| `toString`             |        |            |
-
-### URLSearchParams
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `append`               |        |            |
-| `delete`               |        |            |
-| `entries`              |        |            |
-| `forEach`              |        |            |
-| `get`                  |        |            |
-| `getAll`               |        |            |
-| `has`                  |        |            |
-| `keys`                 |        |            |
-| `set`                  |        |            |
-| `sort`                 |        |            |
-| `toString`             |        |            |
-| `values`               |        |            |
-
-### Uint16Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Uint32Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Uint8Array
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-
-### Uint8ClampedArray
-
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
 
 ### WeakMap
 
