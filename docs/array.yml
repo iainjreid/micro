@@ -98,7 +98,7 @@ members:
 
   - name: some
     type: function
-    summary: Reduce an array to a single output value
+    summary: Tests that none of the element match the given condition
 
   - name: sort
     type: function
