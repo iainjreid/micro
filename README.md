@@ -74,57 +74,6 @@ outlining the current testing and documentation efforts.
 | `unshift`              |                    |            |
 | `values`               |                    |            |
 
-### Date
-
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `getDate`              |                    |            |
-| `getDay`               |                    |            |
-| `getFullYear`          |                    |            |
-| `getHours`             |                    |            |
-| `getMilliseconds`      |                    |            |
-| `getMinutes`           |                    |            |
-| `getMonth`             |                    |            |
-| `getSeconds`           |                    |            |
-| `getTime`              |                    |            |
-| `getTimezoneOffset`    |                    |            |
-| `getUTCDate`           |                    |            |
-| `getUTCDay`            |                    |            |
-| `getUTCFullYear`       |                    |            |
-| `getUTCHours`          |                    |            |
-| `getUTCMilliseconds`   |                    |            |
-| `getUTCMinutes`        |                    |            |
-| `getUTCMonth`          |                    |            |
-| `getUTCSeconds`        |                    |            |
-| `getYear`              |                    |            |
-| `setDate`              |                    |            |
-| `setFullYear`          |                    |            |
-| `setHours`             |                    |            |
-| `setMilliseconds`      |                    |            |
-| `setMinutes`           |                    |            |
-| `setMonth`             |                    |            |
-| `setSeconds`           |                    |            |
-| `setTime`              |                    |            |
-| `setUTCDate`           |                    |            |
-| `setUTCFullYear`       |                    |            |
-| `setUTCHours`          |                    |            |
-| `setUTCMilliseconds`   |                    |            |
-| `setUTCMinutes`        |                    |            |
-| `setUTCMonth`          |                    |            |
-| `setUTCSeconds`        |                    |            |
-| `setYear`              |                    |            |
-| `toDateString`         |                    |            |
-| `toGMTString`          |                    |            |
-| `toISOString`          |                    |            |
-| `toJSON`               |                    |            |
-| `toLocaleDateString`   |                    |            |
-| `toLocaleString`       |                    |            |
-| `toLocaleTimeString`   |                    |            |
-| `toString`             |                    |            |
-| `toTimeString`         |                    |            |
-| `toUTCString`          |                    |            |
-| `valueOf`              |                    |            |
-
 ### Map
 
 | Method                 | Tested             | Documented |
@@ -150,21 +99,6 @@ outlining the current testing and documentation efforts.
 | `toString`             |                    |            |
 | `valueOf`              |                    |            |
 
-### Object
-
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `__defineGetter__`     |                    |            |
-| `__defineSetter__`     |                    |            |
-| `__lookupGetter__`     |                    |            |
-| `__lookupSetter__`     |                    |            |
-| `hasOwnProperty`       |                    |            |
-| `isPrototypeOf`        |                    |            |
-| `propertyIsEnumerable` |                    |            |
-| `toLocaleString`       |                    |            |
-| `toString`             |                    |            |
-| `valueOf`              |                    |            |
-
 ### Promise
 
 | Method                 | Tested             | Documented |
@@ -172,15 +106,6 @@ outlining the current testing and documentation efforts.
 | `catch`                |                    |            |
 | `finally`              |                    |            |
 | `then`                 |                    |            |
-
-### RegExp
-
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `compile`              |                    |            |
-| `exec`                 |                    |            |
-| `test`                 |                    |            |
-| `toString`             |                    |            |
 
 ### Set
 
@@ -199,23 +124,14 @@ outlining the current testing and documentation efforts.
 
 | Method                 | Tested             | Documented |
 | ---                    | ---                | ---        |
-| `anchor`               |                    |            |
-| `big`                  |                    |            |
-| `blink`                |                    |            |
-| `bold`                 |                    |            |
 | `charAt`               |                    |            |
 | `charCodeAt`           |                    |            |
 | `codePointAt`          |                    |            |
 | `concat`               |                    |            |
 | `endsWith`             |                    |            |
-| `fixed`                |                    |            |
-| `fontcolor`            |                    |            |
-| `fontsize`             |                    |            |
 | `includes`             |                    |            |
 | `indexOf`              |                    |            |
-| `italics`              |                    |            |
 | `lastIndexOf`          |                    |            |
-| `link`                 |                    |            |
 | `localeCompare`        |                    |            |
 | `match`                |                    |            |
 | `matchAll`             |                    |            |
@@ -226,14 +142,9 @@ outlining the current testing and documentation efforts.
 | `replace`              |                    |            |
 | `search`               |                    |            |
 | `slice`                |                    |            |
-| `small`                |                    |            |
 | `split`                |                    |            |
 | `startsWith`           |                    |            |
-| `strike`               |                    |            |
-| `sub`                  |                    |            |
-| `substr`               |                    |            |
 | `substring`            |                    |            |
-| `sup`                  |                    |            |
 | `toLocaleLowerCase`    |                    |            |
 | `toLocaleUpperCase`    |                    |            |
 | `toLowerCase`          |                    |            |
