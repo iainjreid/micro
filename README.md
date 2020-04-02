@@ -40,228 +40,228 @@ outlining the current testing and documentation efforts.
 
 ### Array
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `concat`               |        |            |
-| `copyWithin`           |        |            |
-| `entries`              |        |            |
-| `every`                |        |            |
-| `fill`                 |        |            |
-| `filter`               |        |            |
-| `find`                 |        |            |
-| `findIndex`            |        |            |
-| `flat`                 |        |            |
-| `flatMap`              |        |            |
-| `forEach`              |        |            |
-| `includes`             |        |            |
-| `indexOf`              |        |            |
-| `join`                 |        |            |
-| `keys`                 |        |            |
-| `lastIndexOf`          |        |            |
-| `map`                  |        |            |
-| `pop`                  |        |            |
-| `push`                 |        |            |
-| `reduce`               |        |            |
-| `reduceRight`          |        |            |
-| `reverse`              |        |            |
-| `shift`                |        |            |
-| `slice`                |        |            |
-| `some`                 |        |            |
-| `sort`                 |        |            |
-| `splice`               |        |            |
-| `toLocaleString`       |        |            |
-| `toString`             |        |            |
-| `unshift`              |        |            |
-| `values`               |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `concat`               | :white_check_mark: |            |
+| `copyWithin`           | :white_check_mark: |            |
+| `entries`              | :white_check_mark: |            |
+| `every`                | :white_check_mark: |            |
+| `fill`                 |                    |            |
+| `filter`               | :white_check_mark: |            |
+| `find`                 |                    |            |
+| `findIndex`            |                    |            |
+| `flat`                 |                    |            |
+| `flatMap`              |                    |            |
+| `forEach`              |                    |            |
+| `includes`             |                    |            |
+| `indexOf`              |                    |            |
+| `join`                 |                    |            |
+| `keys`                 |                    |            |
+| `lastIndexOf`          |                    |            |
+| `map`                  | :white_check_mark: |            |
+| `pop`                  |                    |            |
+| `push`                 |                    |            |
+| `reduce`               | :white_check_mark: |            |
+| `reduceRight`          |                    |            |
+| `reverse`              |                    |            |
+| `shift`                |                    |            |
+| `slice`                |                    |            |
+| `some`                 | :white_check_mark: |            |
+| `sort`                 |                    |            |
+| `splice`               |                    |            |
+| `toLocaleString`       |                    |            |
+| `toString`             |                    |            |
+| `unshift`              |                    |            |
+| `values`               |                    |            |
 
 ### Date
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `getDate`              |        |            |
-| `getDay`               |        |            |
-| `getFullYear`          |        |            |
-| `getHours`             |        |            |
-| `getMilliseconds`      |        |            |
-| `getMinutes`           |        |            |
-| `getMonth`             |        |            |
-| `getSeconds`           |        |            |
-| `getTime`              |        |            |
-| `getTimezoneOffset`    |        |            |
-| `getUTCDate`           |        |            |
-| `getUTCDay`            |        |            |
-| `getUTCFullYear`       |        |            |
-| `getUTCHours`          |        |            |
-| `getUTCMilliseconds`   |        |            |
-| `getUTCMinutes`        |        |            |
-| `getUTCMonth`          |        |            |
-| `getUTCSeconds`        |        |            |
-| `getYear`              |        |            |
-| `setDate`              |        |            |
-| `setFullYear`          |        |            |
-| `setHours`             |        |            |
-| `setMilliseconds`      |        |            |
-| `setMinutes`           |        |            |
-| `setMonth`             |        |            |
-| `setSeconds`           |        |            |
-| `setTime`              |        |            |
-| `setUTCDate`           |        |            |
-| `setUTCFullYear`       |        |            |
-| `setUTCHours`          |        |            |
-| `setUTCMilliseconds`   |        |            |
-| `setUTCMinutes`        |        |            |
-| `setUTCMonth`          |        |            |
-| `setUTCSeconds`        |        |            |
-| `setYear`              |        |            |
-| `toDateString`         |        |            |
-| `toGMTString`          |        |            |
-| `toISOString`          |        |            |
-| `toJSON`               |        |            |
-| `toLocaleDateString`   |        |            |
-| `toLocaleString`       |        |            |
-| `toLocaleTimeString`   |        |            |
-| `toString`             |        |            |
-| `toTimeString`         |        |            |
-| `toUTCString`          |        |            |
-| `valueOf`              |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `getDate`              |                    |            |
+| `getDay`               |                    |            |
+| `getFullYear`          |                    |            |
+| `getHours`             |                    |            |
+| `getMilliseconds`      |                    |            |
+| `getMinutes`           |                    |            |
+| `getMonth`             |                    |            |
+| `getSeconds`           |                    |            |
+| `getTime`              |                    |            |
+| `getTimezoneOffset`    |                    |            |
+| `getUTCDate`           |                    |            |
+| `getUTCDay`            |                    |            |
+| `getUTCFullYear`       |                    |            |
+| `getUTCHours`          |                    |            |
+| `getUTCMilliseconds`   |                    |            |
+| `getUTCMinutes`        |                    |            |
+| `getUTCMonth`          |                    |            |
+| `getUTCSeconds`        |                    |            |
+| `getYear`              |                    |            |
+| `setDate`              |                    |            |
+| `setFullYear`          |                    |            |
+| `setHours`             |                    |            |
+| `setMilliseconds`      |                    |            |
+| `setMinutes`           |                    |            |
+| `setMonth`             |                    |            |
+| `setSeconds`           |                    |            |
+| `setTime`              |                    |            |
+| `setUTCDate`           |                    |            |
+| `setUTCFullYear`       |                    |            |
+| `setUTCHours`          |                    |            |
+| `setUTCMilliseconds`   |                    |            |
+| `setUTCMinutes`        |                    |            |
+| `setUTCMonth`          |                    |            |
+| `setUTCSeconds`        |                    |            |
+| `setYear`              |                    |            |
+| `toDateString`         |                    |            |
+| `toGMTString`          |                    |            |
+| `toISOString`          |                    |            |
+| `toJSON`               |                    |            |
+| `toLocaleDateString`   |                    |            |
+| `toLocaleString`       |                    |            |
+| `toLocaleTimeString`   |                    |            |
+| `toString`             |                    |            |
+| `toTimeString`         |                    |            |
+| `toUTCString`          |                    |            |
+| `valueOf`              |                    |            |
 
 ### Map
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `clear`                |        |            |
-| `delete`               |        |            |
-| `entries`              |        |            |
-| `forEach`              |        |            |
-| `get`                  |        |            |
-| `has`                  |        |            |
-| `keys`                 |        |            |
-| `set`                  |        |            |
-| `values`               |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `clear`                |                    |            |
+| `delete`               |                    |            |
+| `entries`              |                    |            |
+| `forEach`              |                    |            |
+| `get`                  |                    |            |
+| `has`                  |                    |            |
+| `keys`                 |                    |            |
+| `set`                  |                    |            |
+| `values`               |                    |            |
 
 ### Number
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `toExponential`        |        |            |
-| `toFixed`              |        |            |
-| `toLocaleString`       |        |            |
-| `toPrecision`          |        |            |
-| `toString`             |        |            |
-| `valueOf`              |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `toExponential`        |                    |            |
+| `toFixed`              |                    |            |
+| `toLocaleString`       |                    |            |
+| `toPrecision`          |                    |            |
+| `toString`             |                    |            |
+| `valueOf`              |                    |            |
 
 ### Object
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `__defineGetter__`     |        |            |
-| `__defineSetter__`     |        |            |
-| `__lookupGetter__`     |        |            |
-| `__lookupSetter__`     |        |            |
-| `hasOwnProperty`       |        |            |
-| `isPrototypeOf`        |        |            |
-| `propertyIsEnumerable` |        |            |
-| `toLocaleString`       |        |            |
-| `toString`             |        |            |
-| `valueOf`              |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `__defineGetter__`     |                    |            |
+| `__defineSetter__`     |                    |            |
+| `__lookupGetter__`     |                    |            |
+| `__lookupSetter__`     |                    |            |
+| `hasOwnProperty`       |                    |            |
+| `isPrototypeOf`        |                    |            |
+| `propertyIsEnumerable` |                    |            |
+| `toLocaleString`       |                    |            |
+| `toString`             |                    |            |
+| `valueOf`              |                    |            |
 
 ### Promise
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `catch`                |        |            |
-| `finally`              |        |            |
-| `then`                 |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `catch`                |                    |            |
+| `finally`              |                    |            |
+| `then`                 |                    |            |
 
 ### RegExp
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `compile`              |        |            |
-| `exec`                 |        |            |
-| `test`                 |        |            |
-| `toString`             |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `compile`              |                    |            |
+| `exec`                 |                    |            |
+| `test`                 |                    |            |
+| `toString`             |                    |            |
 
 ### Set
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `add`                  |        |            |
-| `clear`                |        |            |
-| `delete`               |        |            |
-| `entries`              |        |            |
-| `forEach`              |        |            |
-| `has`                  |        |            |
-| `keys`                 |        |            |
-| `values`               |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `add`                  |                    |            |
+| `clear`                |                    |            |
+| `delete`               |                    |            |
+| `entries`              |                    |            |
+| `forEach`              |                    |            |
+| `has`                  |                    |            |
+| `keys`                 |                    |            |
+| `values`               |                    |            |
 
 ### String
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `anchor`               |        |            |
-| `big`                  |        |            |
-| `blink`                |        |            |
-| `bold`                 |        |            |
-| `charAt`               |        |            |
-| `charCodeAt`           |        |            |
-| `codePointAt`          |        |            |
-| `concat`               |        |            |
-| `endsWith`             |        |            |
-| `fixed`                |        |            |
-| `fontcolor`            |        |            |
-| `fontsize`             |        |            |
-| `includes`             |        |            |
-| `indexOf`              |        |            |
-| `italics`              |        |            |
-| `lastIndexOf`          |        |            |
-| `link`                 |        |            |
-| `localeCompare`        |        |            |
-| `match`                |        |            |
-| `matchAll`             |        |            |
-| `normalize`            |        |            |
-| `padEnd`               |        |            |
-| `padStart`             |        |            |
-| `repeat`               |        |            |
-| `replace`              |        |            |
-| `search`               |        |            |
-| `slice`                |        |            |
-| `small`                |        |            |
-| `split`                |        |            |
-| `startsWith`           |        |            |
-| `strike`               |        |            |
-| `sub`                  |        |            |
-| `substr`               |        |            |
-| `substring`            |        |            |
-| `sup`                  |        |            |
-| `toLocaleLowerCase`    |        |            |
-| `toLocaleUpperCase`    |        |            |
-| `toLowerCase`          |        |            |
-| `toString`             |        |            |
-| `toUpperCase`          |        |            |
-| `trim`                 |        |            |
-| `trimEnd`              |        |            |
-| `trimLeft`             |        |            |
-| `trimRight`            |        |            |
-| `trimStart`            |        |            |
-| `valueOf`              |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `anchor`               |                    |            |
+| `big`                  |                    |            |
+| `blink`                |                    |            |
+| `bold`                 |                    |            |
+| `charAt`               |                    |            |
+| `charCodeAt`           |                    |            |
+| `codePointAt`          |                    |            |
+| `concat`               |                    |            |
+| `endsWith`             |                    |            |
+| `fixed`                |                    |            |
+| `fontcolor`            |                    |            |
+| `fontsize`             |                    |            |
+| `includes`             |                    |            |
+| `indexOf`              |                    |            |
+| `italics`              |                    |            |
+| `lastIndexOf`          |                    |            |
+| `link`                 |                    |            |
+| `localeCompare`        |                    |            |
+| `match`                |                    |            |
+| `matchAll`             |                    |            |
+| `normalize`            |                    |            |
+| `padEnd`               |                    |            |
+| `padStart`             |                    |            |
+| `repeat`               |                    |            |
+| `replace`              |                    |            |
+| `search`               |                    |            |
+| `slice`                |                    |            |
+| `small`                |                    |            |
+| `split`                |                    |            |
+| `startsWith`           |                    |            |
+| `strike`               |                    |            |
+| `sub`                  |                    |            |
+| `substr`               |                    |            |
+| `substring`            |                    |            |
+| `sup`                  |                    |            |
+| `toLocaleLowerCase`    |                    |            |
+| `toLocaleUpperCase`    |                    |            |
+| `toLowerCase`          |                    |            |
+| `toString`             |                    |            |
+| `toUpperCase`          |                    |            |
+| `trim`                 |                    |            |
+| `trimEnd`              |                    |            |
+| `trimLeft`             |                    |            |
+| `trimRight`            |                    |            |
+| `trimStart`            |                    |            |
+| `valueOf`              |                    |            |
 
 ### WeakMap
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `delete`               |        |            |
-| `get`                  |        |            |
-| `has`                  |        |            |
-| `set`                  |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `delete`               |                    |            |
+| `get`                  |                    |            |
+| `has`                  |                    |            |
+| `set`                  |                    |            |
 
 ### WeakSet
 
-| Method                 | Tested | Documented |
-| ---                    | ---    | ---        |
-| `add`                  |        |            |
-| `delete`               |        |            |
-| `has`                  |        |            |
+| Method                 | Tested             | Documented |
+| ---                    | ---                | ---        |
+| `add`                  |                    |            |
+| `delete`               |                    |            |
+| `has`                  |                    |            |
 
 ## License
 
