@@ -40,139 +40,139 @@ outlining the current testing and documentation efforts.
 
 ### Array
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `concat`               | :white_check_mark: |            |
-| `copyWithin`           | :white_check_mark: |            |
-| `entries`              | :white_check_mark: |            |
-| `every`                | :white_check_mark: |            |
-| `fill`                 |                    |            |
-| `filter`               | :white_check_mark: |            |
-| `find`                 |                    |            |
-| `findIndex`            |                    |            |
-| `flat`                 |                    |            |
-| `flatMap`              |                    |            |
-| `forEach`              |                    |            |
-| `includes`             |                    |            |
-| `indexOf`              |                    |            |
-| `join`                 |                    |            |
-| `keys`                 |                    |            |
-| `lastIndexOf`          |                    |            |
-| `map`                  | :white_check_mark: |            |
-| `pop`                  |                    |            |
-| `push`                 |                    |            |
-| `reduce`               | :white_check_mark: |            |
-| `reduceRight`          |                    |            |
-| `reverse`              |                    |            |
-| `shift`                |                    |            |
-| `slice`                |                    |            |
-| `some`                 | :white_check_mark: |            |
-| `sort`                 |                    |            |
-| `splice`               |                    |            |
-| `toLocaleString`       |                    |            |
-| `toString`             |                    |            |
-| `unshift`              |                    |            |
-| `values`               |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `concat`            | Merge two arrays                                                        | :white_check_mark: |            |
+| `copyWithin`        | Shallow copy part of an array to another location in that array         | :white_check_mark: |            |
+| `entries`           | Retrieve an iterator from an array                                      | :white_check_mark: |            |
+| `every`             | Tests whether all of the elements match the given condition             | :white_check_mark: |            |
+| `fill`              |                                                                         |                    |            |
+| `filter`            | Create a new array with all of the elements that pass a given condition | :white_check_mark: |            |
+| `find`              |                                                                         |                    |            |
+| `findIndex`         |                                                                         |                    |            |
+| `flat`              |                                                                         |                    |            |
+| `flatMap`           |                                                                         |                    |            |
+| `forEach`           |                                                                         |                    |            |
+| `includes`          |                                                                         |                    |            |
+| `indexOf`           |                                                                         |                    |            |
+| `join`              |                                                                         |                    |            |
+| `keys`              |                                                                         |                    |            |
+| `lastIndexOf`       |                                                                         |                    |            |
+| `map`               | Apply a function over each element in an array                          | :white_check_mark: |            |
+| `pop`               |                                                                         |                    |            |
+| `push`              |                                                                         |                    |            |
+| `reduce`            | Reduce an array to a single output value                                | :white_check_mark: |            |
+| `reduceRight`       |                                                                         |                    |            |
+| `reverse`           |                                                                         |                    |            |
+| `shift`             |                                                                         |                    |            |
+| `slice`             |                                                                         |                    |            |
+| `some`              | Tests that none of the element match the given condition                | :white_check_mark: |            |
+| `sort`              |                                                                         |                    |            |
+| `splice`            |                                                                         |                    |            |
+| `toLocaleString`    |                                                                         |                    |            |
+| `toString`          |                                                                         |                    |            |
+| `unshift`           |                                                                         |                    |            |
+| `values`            |                                                                         |                    |            |
 
 ### Map
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `clear`                |                    |            |
-| `delete`               |                    |            |
-| `entries`              |                    |            |
-| `forEach`              |                    |            |
-| `get`                  |                    |            |
-| `has`                  |                    |            |
-| `keys`                 |                    |            |
-| `set`                  |                    |            |
-| `values`               |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `clear`             |                                                                         |                    |            |
+| `delete`            |                                                                         |                    |            |
+| `entries`           |                                                                         |                    |            |
+| `forEach`           |                                                                         |                    |            |
+| `get`               |                                                                         |                    |            |
+| `has`               |                                                                         |                    |            |
+| `keys`              |                                                                         |                    |            |
+| `set`               |                                                                         |                    |            |
+| `values`            |                                                                         |                    |            |
 
 ### Number
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `toExponential`        |                    |            |
-| `toFixed`              |                    |            |
-| `toLocaleString`       |                    |            |
-| `toPrecision`          |                    |            |
-| `toString`             |                    |            |
-| `valueOf`              |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `toExponential`     |                                                                         |                    |            |
+| `toFixed`           |                                                                         |                    |            |
+| `toLocaleString`    |                                                                         |                    |            |
+| `toPrecision`       |                                                                         |                    |            |
+| `toString`          |                                                                         |                    |            |
+| `valueOf`           |                                                                         |                    |            |
 
 ### Promise
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `catch`                |                    |            |
-| `finally`              |                    |            |
-| `then`                 |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `catch`             |                                                                         |                    |            |
+| `finally`           |                                                                         |                    |            |
+| `then`              |                                                                         |                    |            |
 
 ### Set
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `add`                  |                    |            |
-| `clear`                |                    |            |
-| `delete`               |                    |            |
-| `entries`              |                    |            |
-| `forEach`              |                    |            |
-| `has`                  |                    |            |
-| `keys`                 |                    |            |
-| `values`               |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `add`               |                                                                         |                    |            |
+| `clear`             |                                                                         |                    |            |
+| `delete`            |                                                                         |                    |            |
+| `entries`           |                                                                         |                    |            |
+| `forEach`           |                                                                         |                    |            |
+| `has`               |                                                                         |                    |            |
+| `keys`              |                                                                         |                    |            |
+| `values`            |                                                                         |                    |            |
 
 ### String
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `charAt`               |                    |            |
-| `charCodeAt`           |                    |            |
-| `codePointAt`          |                    |            |
-| `concat`               |                    |            |
-| `endsWith`             |                    |            |
-| `includes`             |                    |            |
-| `indexOf`              |                    |            |
-| `lastIndexOf`          |                    |            |
-| `localeCompare`        |                    |            |
-| `match`                |                    |            |
-| `matchAll`             |                    |            |
-| `normalize`            |                    |            |
-| `padEnd`               |                    |            |
-| `padStart`             |                    |            |
-| `repeat`               |                    |            |
-| `replace`              |                    |            |
-| `search`               |                    |            |
-| `slice`                |                    |            |
-| `split`                |                    |            |
-| `startsWith`           |                    |            |
-| `substring`            |                    |            |
-| `toLocaleLowerCase`    |                    |            |
-| `toLocaleUpperCase`    |                    |            |
-| `toLowerCase`          |                    |            |
-| `toString`             |                    |            |
-| `toUpperCase`          |                    |            |
-| `trim`                 |                    |            |
-| `trimEnd`              |                    |            |
-| `trimLeft`             |                    |            |
-| `trimRight`            |                    |            |
-| `trimStart`            |                    |            |
-| `valueOf`              |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `charAt`            |                                                                         |                    |            |
+| `charCodeAt`        |                                                                         |                    |            |
+| `codePointAt`       |                                                                         |                    |            |
+| `concat`            |                                                                         |                    |            |
+| `endsWith`          |                                                                         |                    |            |
+| `includes`          |                                                                         |                    |            |
+| `indexOf`           |                                                                         |                    |            |
+| `lastIndexOf`       |                                                                         |                    |            |
+| `localeCompare`     |                                                                         |                    |            |
+| `match`             |                                                                         |                    |            |
+| `matchAll`          |                                                                         |                    |            |
+| `normalize`         |                                                                         |                    |            |
+| `padEnd`            |                                                                         |                    |            |
+| `padStart`          |                                                                         |                    |            |
+| `repeat`            |                                                                         |                    |            |
+| `replace`           |                                                                         |                    |            |
+| `search`            |                                                                         |                    |            |
+| `slice`             |                                                                         |                    |            |
+| `split`             |                                                                         |                    |            |
+| `startsWith`        |                                                                         |                    |            |
+| `substring`         |                                                                         |                    |            |
+| `toLocaleLowerCase` |                                                                         |                    |            |
+| `toLocaleUpperCase` |                                                                         |                    |            |
+| `toLowerCase`       |                                                                         |                    |            |
+| `toString`          |                                                                         |                    |            |
+| `toUpperCase`       |                                                                         |                    |            |
+| `trim`              |                                                                         |                    |            |
+| `trimEnd`           |                                                                         |                    |            |
+| `trimLeft`          |                                                                         |                    |            |
+| `trimRight`         |                                                                         |                    |            |
+| `trimStart`         |                                                                         |                    |            |
+| `valueOf`           |                                                                         |                    |            |
 
 ### WeakMap
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `delete`               |                    |            |
-| `get`                  |                    |            |
-| `has`                  |                    |            |
-| `set`                  |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `delete`            |                                                                         |                    |            |
+| `get`               |                                                                         |                    |            |
+| `has`               |                                                                         |                    |            |
+| `set`               |                                                                         |                    |            |
 
 ### WeakSet
 
-| Method                 | Tested             | Documented |
-| ---                    | ---                | ---        |
-| `add`                  |                    |            |
-| `delete`               |                    |            |
-| `has`                  |                    |            |
+| Method              | Summary                                                                 | Tested             | Documented |
+| ---                 | ---                                                                     | ---                | ---        |
+| `add`               |                                                                         |                    |            |
+| `delete`            |                                                                         |                    |            |
+| `has`               |                                                                         |                    |            |
 
 ## License
 
