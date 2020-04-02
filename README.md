@@ -41,7 +41,7 @@ outlining the current testing and documentation efforts.
 ### Array
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `concat`            | Merge two arrays                                                        | :white_check_mark: |            |
 | `copyWithin`        | Shallow copy part of an array to another location in that array         | :white_check_mark: |            |
 | `entries`           | Retrieve an iterator from an array                                      | :white_check_mark: |            |
@@ -77,7 +77,7 @@ outlining the current testing and documentation efforts.
 ### Map
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `clear`             |                                                                         |                    |            |
 | `delete`            |                                                                         |                    |            |
 | `entries`           |                                                                         |                    |            |
@@ -91,7 +91,7 @@ outlining the current testing and documentation efforts.
 ### Number
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `toExponential`     |                                                                         |                    |            |
 | `toFixed`           |                                                                         |                    |            |
 | `toLocaleString`    |                                                                         |                    |            |
@@ -102,7 +102,7 @@ outlining the current testing and documentation efforts.
 ### Promise
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `catch`             |                                                                         |                    |            |
 | `finally`           |                                                                         |                    |            |
 | `then`              |                                                                         |                    |            |
@@ -110,7 +110,7 @@ outlining the current testing and documentation efforts.
 ### Set
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `add`               |                                                                         |                    |            |
 | `clear`             |                                                                         |                    |            |
 | `delete`            |                                                                         |                    |            |
@@ -123,7 +123,7 @@ outlining the current testing and documentation efforts.
 ### String
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `charAt`            |                                                                         |                    |            |
 | `charCodeAt`        |                                                                         |                    |            |
 | `codePointAt`       |                                                                         |                    |            |
@@ -160,7 +160,7 @@ outlining the current testing and documentation efforts.
 ### WeakMap
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `delete`            |                                                                         |                    |            |
 | `get`               |                                                                         |                    |            |
 | `has`               |                                                                         |                    |            |
@@ -169,7 +169,7 @@ outlining the current testing and documentation efforts.
 ### WeakSet
 
 | Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | ---                | ---        |
+| ---                 | ---                                                                     | :---:              | :---:      |
 | `add`               |                                                                         |                    |            |
 | `delete`            |                                                                         |                    |            |
 | `has`               |                                                                         |                    |            |
