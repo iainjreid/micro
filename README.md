@@ -78,7 +78,7 @@ outlining the current testing and documentation efforts.
 
 | Method              | Summary                                                                 | Tested             | Documented |
 | ---                 | ---                                                                     | :---:              | :---:      |
-| `clear`             |                                                                         |                    |            |
+| `clear`             | Removes all of the elements from a Map object                           | :white-check-mark: |            |
 | `delete`            |                                                                         |                    |            |
 | `entries`           |                                                                         |                    |            |
 | `forEach`           |                                                                         |                    |            |

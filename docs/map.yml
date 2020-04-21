@@ -2,7 +2,7 @@ namespace: Map
 members:
   - name: clear
     type: function
-    summary:
+    summary: Removes all of the elements from a Map object
 
   - name: delete
     type: function
