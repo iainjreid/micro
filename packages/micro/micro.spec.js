@@ -2,6 +2,12 @@
 
 const M = require('./micro')
 
+/**
+ *
+ * Array
+ *
+ */
+
 describe('array-concat', () => {
   it('merges two arrays', () => {
     expect(M.Array.concat([4, 5, 6], [1, 2, 3])).toEqual([1, 2, 3, 4, 5, 6])
@@ -51,5 +57,23 @@ describe('array-reduce', () => {
 describe('array-some', () => {
   it('check that no elements in an array pass a given condition', () => {
     expect(M.Array.some((elem) => elem > 2, [1, 2, 3])).toEqual(true)
+  })
+})
+
+/**
+ *
+ * Map
+ *
+ */
+describe('map-clear', () => {
+  it('removes all of the elements from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(map.size).toEqual(2)
+    M.Map.clear(map)
+    expect(map.size).toEqual(0)
   })
 })
