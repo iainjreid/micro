@@ -18,7 +18,7 @@ members:
 
   - name: get
     type: function
-    summary:
+    summary: Return a specified element from a Map object
 
   - name: has
     type: function
@@ -30,7 +30,7 @@ members:
 
   - name: set
     type: function
-    summary:
+    summary: Assign or update a specified element in a Map object
 
   - name: values
     type: function

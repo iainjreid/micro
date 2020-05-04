@@ -82,10 +82,10 @@ outlining the current testing and documentation efforts.
 | `delete`            |                                                                         |                    |            |
 | `entries`           |                                                                         |                    |            |
 | `forEach`           |                                                                         |                    |            |
-| `get`               |                                                                         |                    |            |
+| `get`               | Return a specified element from a Map object                            | :white_check_mark: |            |
 | `has`               |                                                                         |                    |            |
 | `keys`              |                                                                         |                    |            |
-| `set`               |                                                                         |                    |            |
+| `set`               | Assign or update a specified element in a Map object                    | :white_check_mark: |            |
 | `values`            |                                                                         |                    |            |
 
 ### Number
