@@ -78,6 +78,47 @@ describe('map-clear', () => {
   })
 })
 
+describe('map-delete', () => {
+  it('removes the element from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(map.get('foo')).toEqual('1')
+    expect(map.get('bar')).toEqual('2')
+    M.Map.delete('foo', map)
+    expect(map.get('foo')).toEqual(undefined)
+    expect(map.get('bar')).toEqual('2')
+  })
+  
+  it('returns true if the key exists and removes it from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(map.get('foo')).toEqual('1')
+    expect(map.get('bar')).toEqual('2')
+    expect(M.Map.delete('bar', map)).toEqual(true)
+    expect(map.get('foo')).toEqual('1')
+    expect(map.get('bar')).toEqual(undefined)
+  })
+  
+  it('returns false if the key doesn\'t exist in the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(map.get('foo')).toEqual('1')
+    expect(map.get('bar')).toEqual('2')
+    expect(M.Map.delete('baz', map)).toEqual(false)
+    expect(map.get('foo')).toEqual('1')
+    expect(map.get('bar')).toEqual('2')
+  })
+})
+
 describe('map-set', () => {
   it('sets a value in the provided Map', () => {
     const map = new Map()

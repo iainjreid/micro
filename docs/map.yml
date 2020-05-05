@@ -6,7 +6,7 @@ members:
 
   - name: delete
     type: function
-    summary:
+    summary: Removes a specified element from a Map object, returning true if the element existed and false if the element did not
 
   - name: entries
     type: function
