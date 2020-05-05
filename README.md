@@ -76,17 +76,17 @@ outlining the current testing and documentation efforts.
 
 ### Map
 
-| Method              | Summary                                                                 | Tested             | Documented |
-| ---                 | ---                                                                     | :---:              | :---:      |
-| `clear`             | Removes all of the elements from a Map object                           | :white_check_mark: |            |
-| `delete`            | Removes a specified element from a Map object, returning true if the element existed and false if the element did not  |:white_check_mark: |            |
-| `entries`           |                                                                         |                    |            |
-| `forEach`           |                                                                         |                    |            |
-| `get`               | Return a specified element from a Map object                            | :white_check_mark: |            |
-| `has`               |                                                                         |                    |            |
-| `keys`              |                                                                         |                    |            |
-| `set`               | Assign or update a specified element in a Map object                    | :white_check_mark: |            |
-| `values`            |                                                                         |                    |            |
+| Method    | Summary                                                                                                               | Tested             | Documented |
+| ---       | ---                                                                                                                   | :---:              | :---:      |
+| `clear`   | Removes all of the elements from a Map object                                                                         | :white_check_mark: |            |
+| `delete`  | Removes a specified element from a Map object, returning true if the element existed and false if the element did not | :white_check_mark: |            |
+| `entries` |                                                                                                                       |                    |            |
+| `forEach` |                                                                                                                       |                    |            |
+| `get`     | Return a specified element from a Map object                                                                          | :white_check_mark: |            |
+| `has`     |                                                                                                                       |                    |            |
+| `keys`    |                                                                                                                       |                    |            |
+| `set`     | Assign or update a specified element in a Map object                                                                  | :white_check_mark: |            |
+| `values`  |                                                                                                                       |                    |            |
 
 ### Number
 
