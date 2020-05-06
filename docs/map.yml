@@ -10,7 +10,7 @@ members:
 
   - name: entries
     type: function
-    summary:
+    summary: Creates a new Iterator containing an array of key -> value for each element a Map object
 
   - name: forEach
     type: function
