@@ -119,6 +119,20 @@ describe('map-delete', () => {
   })
 })
 
+describe('map-entries', () => {
+  it('returns an iterator object built from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(Array.from(M.Map.entries(map))).toStrictEqual([
+      ['foo', '1'],
+      ['bar', '2']
+    ])
+  })
+})
+
 describe('map-set', () => {
   it('sets a value in the provided Map', () => {
     const map = new Map()
