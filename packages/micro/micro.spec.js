@@ -148,16 +148,6 @@ describe('map-forEach', () => {
   })
 })
 
-describe('map-set', () => {
-  it('sets a value in the provided Map', () => {
-    const map = new Map()
-
-    expect(map.get('foo')).toEqual(undefined)
-    M.Map.set('foo', 'bar', map)
-    expect(map.get('foo')).toEqual('bar')
-  })
-})
-
 describe('map-get', () => {
   it('gets a value from the provided Map', () => {
     const map = new Map()
@@ -165,6 +155,16 @@ describe('map-get', () => {
     expect(M.Map.get('foo', map)).toEqual(undefined)
     map.set('foo', 'bar')
     expect(M.Map.get('foo', map)).toEqual('bar')
+  })
+})
+
+describe('map-set', () => {
+  it('sets a value in the provided Map', () => {
+    const map = new Map()
+
+    expect(map.get('foo')).toEqual(undefined)
+    M.Map.set('foo', 'bar', map)
+    expect(map.get('foo')).toEqual('bar')
   })
 })
 
