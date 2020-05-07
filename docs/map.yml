@@ -22,7 +22,7 @@ members:
 
   - name: has
     type: function
-    summary:
+    summary: Returns a boolean indicating whether or not the given key exists in a Map object
 
   - name: keys
     type: function

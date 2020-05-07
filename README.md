@@ -83,7 +83,7 @@ outlining the current testing and documentation efforts.
 | `entries` | Creates a new Iterator containing an array of `[key, value]` for each element a Map object                            | :white_check_mark: |            |
 | `forEach` | Calls the given callback function once for every key value pair in a Map object                                       | :white_check_mark: |            |
 | `get`     | Return a specified element from a Map object                                                                          | :white_check_mark: |            |
-| `has`     |                                                                                                                       |                    |            |
+| `has`     | Returns a boolean indicating whether or not the given key exists in a Map object                                      | :white_check_mark: |            |
 | `keys`    |                                                                                                                       |                    |            |
 | `set`     | Assign or update a specified element in a Map object                                                                  | :white_check_mark: |            |
 | `values`  |                                                                                                                       |                    |            |
