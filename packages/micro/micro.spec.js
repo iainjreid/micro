@@ -133,6 +133,21 @@ describe('map-entries', () => {
   })
 })
 
+describe('map-forEach', () => {
+  it('calls the callback function for each key/value in the provided Map', () => {
+    const fn = jest.fn()
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    M.Map.forEach(fn, map)
+    expect(fn).toBeCalledTimes(2)
+    expect(fn).toHaveBeenNthCalledWith(1, '1', 'foo', map)
+    expect(fn).toHaveBeenNthCalledWith(2, '2', 'bar', map)
+  })
+})
+
 describe('map-set', () => {
   it('sets a value in the provided Map', () => {
     const map = new Map()
