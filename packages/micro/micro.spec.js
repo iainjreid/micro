@@ -104,7 +104,7 @@ describe('map-delete', () => {
     expect(map.get('foo')).toEqual('1')
     expect(map.get('bar')).toEqual(undefined)
   })
-  
+
   it('returns false if the key doesn\'t exist in the provided Map', () => {
     const map = new Map()
 
@@ -155,6 +155,19 @@ describe('map-get', () => {
     expect(M.Map.get('foo', map)).toEqual(undefined)
     map.set('foo', 'bar')
     expect(M.Map.get('foo', map)).toEqual('bar')
+  })
+})
+
+describe('map-has', () => {
+  const map = new Map()
+  map.set('foo', '1')
+
+  it('returns true if the key exists in the provided Map', () => {
+    expect(M.Map.has('foo', map)).toBe(true)
+  })
+  
+  it('returns false if the key does not exist in the provided Map', () => {
+    expect(M.Map.has('bar', map)).toBe(false)
   })
 })
 
