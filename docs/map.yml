@@ -14,7 +14,7 @@ members:
 
   - name: forEach
     type: function
-    summary:
+    summary: Calls the given callback function once for every key value pair in a Map object
 
   - name: get
     type: function
