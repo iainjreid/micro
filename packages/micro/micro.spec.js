@@ -171,6 +171,20 @@ describe('map-has', () => {
   })
 })
 
+describe('map-keys', () => {
+  it('returns an iterator object containing the keys from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(Array.from(M.Map.keys(map))).toStrictEqual([
+      'foo',
+      'bar'
+    ])
+  })
+})
+
 describe('map-set', () => {
   it('sets a value in the provided Map', () => {
     const map = new Map()
