@@ -80,11 +80,11 @@ outlining the current testing and documentation efforts.
 | ---       | ---                                                                                                                   | :---:              | :---:      |
 | `clear`   | Removes all of the elements from a Map object                                                                         | :white_check_mark: |            |
 | `delete`  | Removes a specified element from a Map object, returning true if the element existed and false if the element did not | :white_check_mark: |            |
-| `entries` | Creates a new Iterator containing an array of `[key, value]` for each element a Map object                            | :white_check_mark: |            |
+| `entries` | Creates a new Iterator containing an array of `[key, value]` for each element in a Map object                         | :white_check_mark: |            |
 | `forEach` | Calls the given callback function once for every key value pair in a Map object                                       | :white_check_mark: |            |
 | `get`     | Return a specified element from a Map object                                                                          | :white_check_mark: |            |
 | `has`     | Returns a boolean indicating whether or not the given key exists in a Map object                                      | :white_check_mark: |            |
-| `keys`    |                                                                                                                       |                    |            |
+| `keys`    | Creates a new Iterator containing each key in a Map object                                                            |                    |            |
 | `set`     | Assign or update a specified element in a Map object                                                                  | :white_check_mark: |            |
 | `values`  |                                                                                                                       |                    |            |
 
