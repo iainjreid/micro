@@ -195,3 +195,17 @@ describe('map-set', () => {
   })
 })
 
+describe('map-values', () => {
+  it('returns an iterator object containing the values from the provided Map', () => {
+    const map = new Map()
+
+    map.set('foo', '1')
+    map.set('bar', '2')
+
+    expect(Array.from(M.Map.values(map))).toStrictEqual([
+      '1',
+      '2'
+    ])
+  })
+})
+
