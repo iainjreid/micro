@@ -86,7 +86,7 @@ outlining the current testing and documentation efforts.
 | `has`     | Returns a boolean indicating whether or not the given key exists in a Map object                                      | :white_check_mark: |            |
 | `keys`    | Creates a new Iterator containing each key in a Map object                                                            | :white_check_mark: |            |
 | `set`     | Assign or update a specified element in a Map object                                                                  | :white_check_mark: |            |
-| `values`  |                                                                                                                       |                    |            |
+| `values`  | Creates a new Iterator containing each value in a Map object                                                          | :white_check_mark: |            |
 
 ### Number
 

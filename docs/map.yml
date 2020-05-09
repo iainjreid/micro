@@ -34,4 +34,4 @@ members:
 
   - name: values
     type: function
-    summary:
+    summary: Creates a new Iterator containing each value in a Map object
